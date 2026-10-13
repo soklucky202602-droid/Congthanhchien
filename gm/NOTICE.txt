@@ -1,0 +1,1 @@
+GM page created separately at /gm/. The game UI remains unchanged.
