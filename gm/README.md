@@ -1,0 +1,1 @@
+GM/Admin page is served at /gm/. This page is intentionally separate from the game UI.
