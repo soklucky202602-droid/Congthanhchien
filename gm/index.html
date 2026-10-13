@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Võ Lâm Truyền Kỳ — GM Admin</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101514;color:#e9e1c8;font-family:Arial,sans-serif}header{padding:18px 24px;background:#171d1b;border-bottom:1px solid #665b3a;display:flex;justify-content:space-between;align-items:center}h1{margin:0;font-size:22px;color:#e9c66b}.sub{font-size:12px;color:#aaa}.wrap{max-width:1200px;margin:22px auto;padding:0 16px}.notice{padding:12px 14px;background:#18201d;border:1px solid #50482f;margin-bottom:16px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}.card{background:#171d1b;border:1px solid #4e4938;border-radius:6px;padding:16px}.card h2{margin:0 0 8px;font-size:16px;color:#e6c16a}.card p{color:#aaa;font-size:13px;line-height:1.5}.row{display:flex;gap:8px;flex-wrap:wrap}.btn{border:1px solid #77653a;background:#292d25;color:#eee3bd;padding:9px 12px;border-radius:4px;cursor:pointer}.btn:hover{background:#3a3929}.btn.primary{background:#66501d}.danger{color:#e48d7f}.status{margin-top:12px;padding:10px;background:#0d1211;border:1px solid #343b35;min-height:40px;white-space:pre-wrap}.back{color:#d7bb6c;text-decoration:none;font-size:13px}
+</style>
+</head>
+<body>
+<header><div><h1>GM / ADMIN CONTROL</h1><div class="sub">Trang quản trị riêng — không nhúng giao diện GM vào game</div></div><a class="back" href="../">← Về game</a></header>
+<div class="wrap">
+<div class="notice"><b>Admin offline</b><br>Trang này dùng để thao tác nhanh trên dữ liệu nhân vật lưu trong trình duyệt. Không ảnh hưởng giao diện game.</div>
+<div class="grid">
+<section class="card"><h2>Nhân vật</h2><p>Các thao tác quản trị nhân vật.</p><div class="row"><button class="btn" data-action="level200">Lên cấp 200</button><button class="btn" data-action="maxpoints">Max điểm</button></div></section>
+<section class="card"><h2>Tài nguyên</h2><p>Cộng tài nguyên trực tiếp vào trạng thái lưu.</p><div class="row"><button class="btn" data-action="knb">+2 tỷ KNB</button><button class="btn" data-action="attr">+1 tỷ tiềm năng</button><button class="btn" data-action="skill">+1 tỷ kỹ năng</button></div></section>
+<section class="card"><h2>Hành trang</h2><p>Mở nhanh giao diện game để kiểm tra trang bị và dữ liệu hiện tại.</p><div class="row"><button class="btn" data-action="openGame">Mở game</button></div></section>
+<section class="card"><h2>Dữ liệu</h2><p>Kiểm tra trạng thái lưu của nhân vật trong trình duyệt.</p><div class="row"><button class="btn" data-action="inspect">Kiểm tra Save</button><button class="btn danger" data-action="clear">Xóa Save</button></div></section>
+</div>
+<div id="status" class="status">Sẵn sàng.</div>
+</div>
+<script>
+const KEY_CANDIDATES=['VLI_SAVE','vli_save','VLTKIDLE_SAVE','save','gameSave'];
+function findSave(){for(const k of KEY_CANDIDATES){try{const v=localStorage.getItem(k);if(v)return {key:k,value:v}}catch(e){}}return null}
+function parse(){const x=findSave();if(!x)return null;try{return {key:x.key,data:JSON.parse(x.value)}}catch(e){return {key:x.key,data:null}}}
+function setStatus(s){document.getElementById('status').textContent=s}
+function inspect(){const x=parse();if(!x){setStatus('Không tìm thấy save ở các key phổ biến.');return}setStatus('Save key: '+x.key+'\n'+(x.data?JSON.stringify(x.data,null,2).slice(0,12000):'Dữ liệu không phải JSON.'))}
+function mutate(fn,label){const x=parse();if(!x||!x.data){setStatus('Không tìm thấy save JSON để chỉnh. Hãy vào game tạo nhân vật rồi quay lại GM.');return}fn(x.data);localStorage.setItem(x.key,JSON.stringify(x.data));setStatus(label+'\nSave đã ghi lại. Hãy tải lại game để nhận trạng thái mới.')}
+document.querySelectorAll('[data-action]').forEach(b=>b.onclick=()=>{const a=b.dataset.action;if(a==='inspect')return inspect();if(a==='openGame')return location.href='../';if(a==='clear'){if(confirm('Xóa save hiện tại?')){const x=findSave();if(x)localStorage.removeItem(x.key);setStatus('Đã xóa save: '+(x?.key||'không có'));}return}if(a==='level200')return mutate(d=>{d.lvl=200},'Đã đặt cấp 200.');if(a==='knb')return mutate(d=>{d.knb=2000000000},'Đã đặt 2 tỷ KNB.');if(a==='attr')return mutate(d=>{d.attrPts=1000000000},'Đã đặt 1 tỷ điểm tiềm năng.');if(a==='skill')return mutate(d=>{d.skPts=1000000000},'Đã đặt 1 tỷ điểm kỹ năng.');if(a==='maxpoints')return mutate(d=>{d.attrPts=1000000000;d.skPts=1000000000;d.knb=2000000000},'Đã max tài nguyên GM.');});
+</script>
+</body></html>
