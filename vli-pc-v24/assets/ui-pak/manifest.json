@@ -1,0 +1,3212 @@
+[
+  {
+    "hash": "00D94213",
+    "raw": 683703,
+    "packed": 512466,
+    "method": 16,
+    "width": 145,
+    "height": 145,
+    "centerX": 72,
+    "centerY": 113,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 56,
+    "kind": "spr",
+    "frame0size": [
+      145,
+      145
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "00D94213.webp"
+  },
+  {
+    "hash": "012DC24A",
+    "raw": 231486,
+    "packed": 111171,
+    "method": 16,
+    "width": 103,
+    "height": 116,
+    "centerX": 51,
+    "centerY": 78,
+    "frames": 11,
+    "colors": 256,
+    "directions": 1,
+    "interval": 50,
+    "kind": "spr",
+    "frame0size": [
+      103,
+      116
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "012DC24A.webp"
+  },
+  {
+    "hash": "017559D7",
+    "raw": 505827,
+    "packed": 340421,
+    "method": 16,
+    "width": 149,
+    "height": 175,
+    "centerX": 72,
+    "centerY": 120,
+    "frames": 30,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      149,
+      175
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "017559D7.webp"
+  },
+  {
+    "hash": "04902985",
+    "raw": 225579,
+    "packed": 147655,
+    "method": 16,
+    "width": 203,
+    "height": 370,
+    "centerX": 110,
+    "centerY": 430,
+    "frames": 18,
+    "colors": 256,
+    "directions": 1,
+    "interval": 90,
+    "kind": "spr",
+    "frame0size": [
+      123,
+      204
+    ],
+    "frame0origin": [
+      32,
+      145
+    ],
+    "file": "04902985.webp"
+  },
+  {
+    "hash": "09DA0D8E",
+    "raw": 448995,
+    "packed": 346848,
+    "method": 16,
+    "width": 156,
+    "height": 135,
+    "centerX": 78,
+    "centerY": 89,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 60,
+    "kind": "spr",
+    "frame0size": [
+      156,
+      95
+    ],
+    "frame0origin": [
+      0,
+      40
+    ],
+    "file": "09DA0D8E.webp"
+  },
+  {
+    "hash": "0B18A71D",
+    "raw": 462797,
+    "packed": 365635,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 63,
+    "centerY": 80,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "0B18A71D.webp"
+  },
+  {
+    "hash": "0C4F68CF",
+    "raw": 1309268,
+    "packed": 827557,
+    "method": 16,
+    "width": 228,
+    "height": 188,
+    "centerX": 109,
+    "centerY": 114,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 30,
+    "kind": "spr",
+    "frame0size": [
+      181,
+      149
+    ],
+    "frame0origin": [
+      40,
+      37
+    ],
+    "file": "0C4F68CF.webp"
+  },
+  {
+    "hash": "0DED69C5",
+    "raw": 462143,
+    "packed": 276698,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 63,
+    "centerY": 84,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "0DED69C5.webp"
+  },
+  {
+    "hash": "0E8B1AD2",
+    "raw": 6124,
+    "packed": 1127,
+    "method": 32,
+    "width": 67,
+    "height": 19,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 4,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      67,
+      19
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "0E8B1AD2.webp"
+  },
+  {
+    "hash": "117DF1C3",
+    "raw": 23219,
+    "packed": 7899,
+    "method": 32,
+    "width": 154,
+    "height": 119,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      154,
+      119
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "117DF1C3.webp"
+  },
+  {
+    "hash": "123AEBD7",
+    "raw": 544401,
+    "packed": 295566,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 64,
+    "centerY": 84,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "123AEBD7.webp"
+  },
+  {
+    "hash": "13CA50B4",
+    "raw": 551603,
+    "packed": 401677,
+    "method": 16,
+    "width": 160,
+    "height": 160,
+    "centerX": 78,
+    "centerY": 106,
+    "frames": 10,
+    "colors": 256,
+    "directions": 1,
+    "interval": 56,
+    "kind": "spr",
+    "frame0size": [
+      159,
+      159
+    ],
+    "frame0origin": [
+      1,
+      0
+    ],
+    "file": "13CA50B4.webp"
+  },
+  {
+    "hash": "16A62A59",
+    "raw": 96433,
+    "packed": 7306,
+    "method": 32,
+    "width": 223,
+    "height": 349,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      223,
+      349
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "16A62A59.webp"
+  },
+  {
+    "hash": "1A045831",
+    "raw": 462797,
+    "packed": 365635,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 63,
+    "centerY": 80,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "1A045831.webp"
+  },
+  {
+    "hash": "1A05AFD6",
+    "raw": 506350,
+    "packed": 294896,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 64,
+    "centerY": 90,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 40,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "1A05AFD6.webp"
+  },
+  {
+    "hash": "1DCD2C50",
+    "raw": 427094,
+    "packed": 263126,
+    "method": 16,
+    "width": 131,
+    "height": 192,
+    "centerX": 63,
+    "centerY": 154,
+    "frames": 27,
+    "colors": 256,
+    "directions": 1,
+    "interval": 60,
+    "kind": "spr",
+    "frame0size": [
+      83,
+      45
+    ],
+    "frame0origin": [
+      23,
+      134
+    ],
+    "file": "1DCD2C50.webp"
+  },
+  {
+    "hash": "1F95498B",
+    "raw": 763472,
+    "packed": 410412,
+    "method": 16,
+    "width": 191,
+    "height": 145,
+    "centerX": 95,
+    "centerY": 85,
+    "frames": 13,
+    "colors": 256,
+    "directions": 1,
+    "interval": 70,
+    "kind": "spr",
+    "frame0size": [
+      191,
+      145
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "1F95498B.webp"
+  },
+  {
+    "hash": "210B0B58",
+    "raw": 473588,
+    "packed": 265049,
+    "method": 16,
+    "width": 510,
+    "height": 510,
+    "centerX": 266,
+    "centerY": 358,
+    "frames": 12,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      171,
+      118
+    ],
+    "frame0origin": [
+      180,
+      280
+    ],
+    "file": "210B0B58.webp"
+  },
+  {
+    "hash": "21569BD9",
+    "raw": 6124,
+    "packed": 1160,
+    "method": 32,
+    "width": 67,
+    "height": 19,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 4,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      67,
+      19
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "21569BD9.webp"
+  },
+  {
+    "hash": "22D35131",
+    "raw": 191879,
+    "packed": 134248,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 66,
+    "centerY": 100,
+    "frames": 30,
+    "colors": 256,
+    "directions": 1,
+    "interval": 66,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "22D35131.webp"
+  },
+  {
+    "hash": "236C0DA3",
+    "raw": 962823,
+    "packed": 819328,
+    "method": 16,
+    "width": 150,
+    "height": 117,
+    "centerX": 76,
+    "centerY": 61,
+    "frames": 30,
+    "colors": 256,
+    "directions": 1,
+    "interval": 56,
+    "kind": "spr",
+    "frame0size": [
+      148,
+      113
+    ],
+    "frame0origin": [
+      2,
+      0
+    ],
+    "file": "236C0DA3.webp"
+  },
+  {
+    "hash": "2454ACC2",
+    "raw": 548133,
+    "packed": 375191,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 63,
+    "centerY": 86,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "2454ACC2.webp"
+  },
+  {
+    "hash": "2B7AE3A3",
+    "raw": 263724,
+    "packed": 119482,
+    "method": 16,
+    "width": 130,
+    "height": 100,
+    "centerX": 65,
+    "centerY": 50,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 50,
+    "kind": "spr",
+    "frame0size": [
+      130,
+      100
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "2B7AE3A3.webp"
+  },
+  {
+    "hash": "2F2AAFBB",
+    "raw": 507933,
+    "packed": 401343,
+    "method": 16,
+    "width": 135,
+    "height": 105,
+    "centerX": 65,
+    "centerY": 51,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 60,
+    "kind": "spr",
+    "frame0size": [
+      135,
+      99
+    ],
+    "frame0origin": [
+      0,
+      6
+    ],
+    "file": "2F2AAFBB.webp"
+  },
+  {
+    "hash": "2F414F52",
+    "raw": 725500,
+    "packed": 553883,
+    "method": 16,
+    "width": 500,
+    "height": 300,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      193,
+      75
+    ],
+    "frame0origin": [
+      61,
+      39
+    ],
+    "file": "2F414F52.webp"
+  },
+  {
+    "hash": "30952933",
+    "raw": 714388,
+    "packed": 519147,
+    "method": 16,
+    "width": 500,
+    "height": 300,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      200,
+      75
+    ],
+    "frame0origin": [
+      58,
+      39
+    ],
+    "file": "30952933.webp"
+  },
+  {
+    "hash": "32738A89",
+    "raw": 113881,
+    "packed": 12658,
+    "method": 32,
+    "width": 404,
+    "height": 253,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      404,
+      253
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "32738A89.webp"
+  },
+  {
+    "hash": "3347EE71",
+    "raw": 548133,
+    "packed": 375191,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 63,
+    "centerY": 86,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "3347EE71.webp"
+  },
+  {
+    "hash": "34A521B9",
+    "raw": 416032,
+    "packed": 321966,
+    "method": 16,
+    "width": 130,
+    "height": 110,
+    "centerX": 65,
+    "centerY": 55,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 83,
+    "kind": "spr",
+    "frame0size": [
+      130,
+      96
+    ],
+    "frame0origin": [
+      0,
+      11
+    ],
+    "file": "34A521B9.webp"
+  },
+  {
+    "hash": "395EF6E0",
+    "raw": 507933,
+    "packed": 401343,
+    "method": 16,
+    "width": 135,
+    "height": 105,
+    "centerX": 65,
+    "centerY": 51,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 60,
+    "kind": "spr",
+    "frame0size": [
+      135,
+      99
+    ],
+    "frame0origin": [
+      0,
+      6
+    ],
+    "file": "395EF6E0.webp"
+  },
+  {
+    "hash": "3A35FE4E",
+    "raw": 436699,
+    "packed": 340286,
+    "method": 16,
+    "width": 500,
+    "height": 300,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      176,
+      62
+    ],
+    "frame0origin": [
+      72,
+      49
+    ],
+    "file": "3A35FE4E.webp"
+  },
+  {
+    "hash": "3D455AC3",
+    "raw": 114091,
+    "packed": 7825,
+    "method": 32,
+    "width": 223,
+    "height": 419,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      223,
+      419
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "3D455AC3.webp"
+  },
+  {
+    "hash": "4376F4F2",
+    "raw": 164655,
+    "packed": 102967,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 64,
+    "centerY": 90,
+    "frames": 30,
+    "colors": 256,
+    "directions": 1,
+    "interval": 50,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "4376F4F2.webp"
+  },
+  {
+    "hash": "49EA4448",
+    "raw": 673498,
+    "packed": 463657,
+    "method": 16,
+    "width": 145,
+    "height": 128,
+    "centerX": 72,
+    "centerY": 80,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      145,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "49EA4448.webp"
+  },
+  {
+    "hash": "49F7B1EB",
+    "raw": 15149,
+    "packed": 12948,
+    "method": 32,
+    "width": 120,
+    "height": 120,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      113,
+      118
+    ],
+    "frame0origin": [
+      7,
+      2
+    ],
+    "file": "49F7B1EB.webp"
+  },
+  {
+    "hash": "4B14B677",
+    "raw": 500399,
+    "packed": 344861,
+    "method": 16,
+    "width": 155,
+    "height": 170,
+    "centerX": 76,
+    "centerY": 119,
+    "frames": 30,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      151,
+      170
+    ],
+    "frame0origin": [
+      4,
+      0
+    ],
+    "file": "4B14B677.webp"
+  },
+  {
+    "hash": "4CAA79BE",
+    "raw": 576193,
+    "packed": 436971,
+    "method": 16,
+    "width": 154,
+    "height": 120,
+    "centerX": 77,
+    "centerY": 69,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 60,
+    "kind": "spr",
+    "frame0size": [
+      151,
+      116
+    ],
+    "frame0origin": [
+      2,
+      4
+    ],
+    "file": "4CAA79BE.webp"
+  },
+  {
+    "hash": "4E27D283",
+    "raw": 309045,
+    "packed": 182468,
+    "method": 16,
+    "width": 112,
+    "height": 92,
+    "centerX": 56,
+    "centerY": 51,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      112,
+      92
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "4E27D283.webp"
+  },
+  {
+    "hash": "4E33B155",
+    "raw": 202580,
+    "packed": 121321,
+    "method": 16,
+    "width": 156,
+    "height": 149,
+    "centerX": 76,
+    "centerY": 115,
+    "frames": 10,
+    "colors": 256,
+    "directions": 1,
+    "interval": 150,
+    "kind": "spr",
+    "frame0size": [
+      156,
+      102
+    ],
+    "frame0origin": [
+      0,
+      47
+    ],
+    "file": "4E33B155.webp"
+  },
+  {
+    "hash": "55288379",
+    "raw": 202400,
+    "packed": 119266,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 64,
+    "centerY": 82,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 55,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "55288379.webp"
+  },
+  {
+    "hash": "55F8600A",
+    "raw": 416032,
+    "packed": 321966,
+    "method": 16,
+    "width": 130,
+    "height": 110,
+    "centerX": 65,
+    "centerY": 55,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 83,
+    "kind": "spr",
+    "frame0size": [
+      130,
+      96
+    ],
+    "frame0origin": [
+      0,
+      11
+    ],
+    "file": "55F8600A.webp"
+  },
+  {
+    "hash": "56F5FFA1",
+    "raw": 398965,
+    "packed": 290864,
+    "method": 16,
+    "width": 138,
+    "height": 110,
+    "centerX": 70,
+    "centerY": 61,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      138,
+      110
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "56F5FFA1.webp"
+  },
+  {
+    "hash": "584D46A1",
+    "raw": 3290,
+    "packed": 921,
+    "method": 32,
+    "width": 52,
+    "height": 15,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 3,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      52,
+      15
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "584D46A1.webp"
+  },
+  {
+    "hash": "5B3AE5CF",
+    "raw": 599389,
+    "packed": 281374,
+    "method": 16,
+    "width": 179,
+    "height": 148,
+    "centerX": 88,
+    "centerY": 106,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 70,
+    "kind": "spr",
+    "frame0size": [
+      179,
+      148
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "5B3AE5CF.webp"
+  },
+  {
+    "hash": "5D8DFA54",
+    "raw": 529519,
+    "packed": 395841,
+    "method": 16,
+    "width": 150,
+    "height": 120,
+    "centerX": 75,
+    "centerY": 74,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 60,
+    "kind": "spr",
+    "frame0size": [
+      147,
+      115
+    ],
+    "frame0origin": [
+      3,
+      1
+    ],
+    "file": "5D8DFA54.webp"
+  },
+  {
+    "hash": "5F39B576",
+    "raw": 262476,
+    "packed": 110264,
+    "method": 16,
+    "width": 130,
+    "height": 100,
+    "centerX": 65,
+    "centerY": 50,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 50,
+    "kind": "spr",
+    "frame0size": [
+      130,
+      100
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "5F39B576.webp"
+  },
+  {
+    "hash": "5F47B133",
+    "raw": 576026,
+    "packed": 373932,
+    "method": 16,
+    "width": 130,
+    "height": 143,
+    "centerX": 64,
+    "centerY": 121,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 40,
+    "kind": "spr",
+    "frame0size": [
+      130,
+      143
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "5F47B133.webp"
+  },
+  {
+    "hash": "6067251A",
+    "raw": 473306,
+    "packed": 319085,
+    "method": 16,
+    "width": 226,
+    "height": 226,
+    "centerX": 113,
+    "centerY": 135,
+    "frames": 18,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      47,
+      20
+    ],
+    "frame0origin": [
+      82,
+      112
+    ],
+    "file": "6067251A.webp"
+  },
+  {
+    "hash": "607CB7B5",
+    "raw": 1067952,
+    "packed": 684973,
+    "method": 16,
+    "width": 162,
+    "height": 190,
+    "centerX": 79,
+    "centerY": 114,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      162,
+      190
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "607CB7B5.webp"
+  },
+  {
+    "hash": "60E13A9F",
+    "raw": 576026,
+    "packed": 373932,
+    "method": 16,
+    "width": 130,
+    "height": 143,
+    "centerX": 64,
+    "centerY": 121,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 40,
+    "kind": "spr",
+    "frame0size": [
+      130,
+      143
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "60E13A9F.webp"
+  },
+  {
+    "hash": "6104DAE7",
+    "raw": 3290,
+    "packed": 814,
+    "method": 32,
+    "width": 52,
+    "height": 15,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 3,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      52,
+      15
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "6104DAE7.webp"
+  },
+  {
+    "hash": "618895ED",
+    "raw": 599389,
+    "packed": 281374,
+    "method": 16,
+    "width": 179,
+    "height": 148,
+    "centerX": 88,
+    "centerY": 106,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 70,
+    "kind": "spr",
+    "frame0size": [
+      179,
+      148
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "618895ED.webp"
+  },
+  {
+    "hash": "626BD81B",
+    "raw": 7298,
+    "packed": 2965,
+    "method": 32,
+    "width": 74,
+    "height": 26,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 3,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      74,
+      26
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "626BD81B.webp"
+  },
+  {
+    "hash": "63B128D7",
+    "raw": 448995,
+    "packed": 346848,
+    "method": 16,
+    "width": 156,
+    "height": 135,
+    "centerX": 78,
+    "centerY": 89,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 60,
+    "kind": "spr",
+    "frame0size": [
+      156,
+      95
+    ],
+    "frame0origin": [
+      0,
+      40
+    ],
+    "file": "63B128D7.webp"
+  },
+  {
+    "hash": "6548187C",
+    "raw": 448772,
+    "packed": 351889,
+    "method": 16,
+    "width": 135,
+    "height": 100,
+    "centerX": 66,
+    "centerY": 50,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 60,
+    "kind": "spr",
+    "frame0size": [
+      131,
+      100
+    ],
+    "frame0origin": [
+      4,
+      0
+    ],
+    "file": "6548187C.webp"
+  },
+  {
+    "hash": "6847547C",
+    "raw": 576193,
+    "packed": 436971,
+    "method": 16,
+    "width": 154,
+    "height": 120,
+    "centerX": 77,
+    "centerY": 69,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 60,
+    "kind": "spr",
+    "frame0size": [
+      151,
+      116
+    ],
+    "frame0origin": [
+      2,
+      4
+    ],
+    "file": "6847547C.webp"
+  },
+  {
+    "hash": "6886BCDF",
+    "raw": 8705,
+    "packed": 3031,
+    "method": 32,
+    "width": 100,
+    "height": 100,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      100,
+      100
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "6886BCDF.webp"
+  },
+  {
+    "hash": "68FCCDE1",
+    "raw": 263724,
+    "packed": 119482,
+    "method": 16,
+    "width": 130,
+    "height": 100,
+    "centerX": 65,
+    "centerY": 50,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 50,
+    "kind": "spr",
+    "frame0size": [
+      130,
+      100
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "68FCCDE1.webp"
+  },
+  {
+    "hash": "6A85A857",
+    "raw": 4961,
+    "packed": 1292,
+    "method": 32,
+    "width": 67,
+    "height": 19,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 3,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      67,
+      19
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "6A85A857.webp"
+  },
+  {
+    "hash": "7036A920",
+    "raw": 562184,
+    "packed": 427701,
+    "method": 16,
+    "width": 500,
+    "height": 300,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      200,
+      70
+    ],
+    "frame0origin": [
+      59,
+      52
+    ],
+    "file": "7036A920.webp"
+  },
+  {
+    "hash": "70D46D65",
+    "raw": 3338,
+    "packed": 834,
+    "method": 32,
+    "width": 52,
+    "height": 15,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 3,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      52,
+      15
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "70D46D65.webp"
+  },
+  {
+    "hash": "72F95F99",
+    "raw": 1062295,
+    "packed": 768541,
+    "method": 16,
+    "width": 230,
+    "height": 210,
+    "centerX": 110,
+    "centerY": 130,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 30,
+    "kind": "spr",
+    "frame0size": [
+      173,
+      139
+    ],
+    "frame0origin": [
+      24,
+      36
+    ],
+    "file": "72F95F99.webp"
+  },
+  {
+    "hash": "78B2B496",
+    "raw": 164655,
+    "packed": 102967,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 64,
+    "centerY": 90,
+    "frames": 30,
+    "colors": 256,
+    "directions": 1,
+    "interval": 50,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "78B2B496.webp"
+  },
+  {
+    "hash": "79492EEA",
+    "raw": 294682,
+    "packed": 156361,
+    "method": 16,
+    "width": 140,
+    "height": 208,
+    "centerX": 68,
+    "centerY": 155,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 50,
+    "kind": "spr",
+    "frame0size": [
+      131,
+      169
+    ],
+    "frame0origin": [
+      4,
+      39
+    ],
+    "file": "79492EEA.webp"
+  },
+  {
+    "hash": "7B67E61C",
+    "raw": 427094,
+    "packed": 263126,
+    "method": 16,
+    "width": 131,
+    "height": 192,
+    "centerX": 63,
+    "centerY": 154,
+    "frames": 27,
+    "colors": 256,
+    "directions": 1,
+    "interval": 60,
+    "kind": "spr",
+    "frame0size": [
+      83,
+      45
+    ],
+    "frame0origin": [
+      23,
+      134
+    ],
+    "file": "7B67E61C.webp"
+  },
+  {
+    "hash": "81F120B8",
+    "raw": 278297,
+    "packed": 157959,
+    "method": 16,
+    "width": 640,
+    "height": 480,
+    "centerX": 318,
+    "centerY": 274,
+    "frames": 10,
+    "colors": 256,
+    "directions": 1,
+    "interval": 150,
+    "kind": "spr",
+    "frame0size": [
+      116,
+      115
+    ],
+    "frame0origin": [
+      262,
+      177
+    ],
+    "file": "81F120B8.webp"
+  },
+  {
+    "hash": "81FF7600",
+    "raw": 3701747,
+    "packed": 2690359,
+    "method": 16,
+    "width": 400,
+    "height": 400,
+    "centerX": 200,
+    "centerY": 234,
+    "frames": 96,
+    "colors": 256,
+    "directions": 8,
+    "interval": 99,
+    "kind": "spr",
+    "frame0size": [
+      178,
+      184
+    ],
+    "frame0origin": [
+      134,
+      112
+    ],
+    "file": "81FF7600.webp"
+  },
+  {
+    "hash": "84478B2B",
+    "raw": 309045,
+    "packed": 182468,
+    "method": 16,
+    "width": 112,
+    "height": 92,
+    "centerX": 56,
+    "centerY": 51,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      112,
+      92
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "84478B2B.webp"
+  },
+  {
+    "hash": "862D5AB8",
+    "raw": 2023,
+    "packed": 1834,
+    "method": 32,
+    "width": 24,
+    "height": 24,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      24,
+      24
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "862D5AB8.webp"
+  },
+  {
+    "hash": "885A4DE7",
+    "raw": 1471,
+    "packed": 1471,
+    "method": 0,
+    "width": 24,
+    "height": 24,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      23,
+      24
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "885A4DE7.webp"
+  },
+  {
+    "hash": "893EBD1E",
+    "raw": 34426,
+    "packed": 21825,
+    "method": 32,
+    "width": 182,
+    "height": 175,
+    "centerX": 90,
+    "centerY": 93,
+    "frames": 21,
+    "colors": 256,
+    "directions": 1,
+    "interval": 75,
+    "kind": "spr",
+    "frame0size": [
+      120,
+      127
+    ],
+    "frame0origin": [
+      23,
+      27
+    ],
+    "file": "893EBD1E.webp"
+  },
+  {
+    "hash": "89E9A4C2",
+    "raw": 262476,
+    "packed": 110264,
+    "method": 16,
+    "width": 130,
+    "height": 100,
+    "centerX": 65,
+    "centerY": 50,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 50,
+    "kind": "spr",
+    "frame0size": [
+      130,
+      100
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "89E9A4C2.webp"
+  },
+  {
+    "hash": "8B057B0B",
+    "raw": 473588,
+    "packed": 265049,
+    "method": 16,
+    "width": 510,
+    "height": 510,
+    "centerX": 266,
+    "centerY": 358,
+    "frames": 12,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      171,
+      118
+    ],
+    "frame0origin": [
+      180,
+      280
+    ],
+    "file": "8B057B0B.webp"
+  },
+  {
+    "hash": "8BB81193",
+    "raw": 442361,
+    "packed": 307010,
+    "method": 16,
+    "width": 120,
+    "height": 98,
+    "centerX": 62,
+    "centerY": 53,
+    "frames": 19,
+    "colors": 256,
+    "directions": 1,
+    "interval": 111,
+    "kind": "spr",
+    "frame0size": [
+      120,
+      94
+    ],
+    "frame0origin": [
+      0,
+      4
+    ],
+    "file": "8BB81193.webp"
+  },
+  {
+    "hash": "8BE8CB05",
+    "raw": 755021,
+    "packed": 583549,
+    "method": 16,
+    "width": 500,
+    "height": 300,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      200,
+      75
+    ],
+    "frame0origin": [
+      59,
+      41
+    ],
+    "file": "8BE8CB05.webp"
+  },
+  {
+    "hash": "94A8232F",
+    "raw": 3338,
+    "packed": 933,
+    "method": 32,
+    "width": 52,
+    "height": 15,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 3,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      52,
+      15
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "94A8232F.webp"
+  },
+  {
+    "hash": "94B133B2",
+    "raw": 12720,
+    "packed": 2921,
+    "method": 32,
+    "width": 86,
+    "height": 32,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 10,
+    "colors": 256,
+    "directions": 1,
+    "interval": 145,
+    "kind": "spr",
+    "frame0size": [
+      63,
+      14
+    ],
+    "frame0origin": [
+      9,
+      10
+    ],
+    "file": "94B133B2.webp"
+  },
+  {
+    "hash": "9726A57C",
+    "raw": 966244,
+    "packed": 516673,
+    "method": 16,
+    "width": 162,
+    "height": 190,
+    "centerX": 78,
+    "centerY": 114,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      162,
+      190
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "9726A57C.webp"
+  },
+  {
+    "hash": "99F79396",
+    "raw": 1635733,
+    "packed": 1140956,
+    "method": 16,
+    "width": 256,
+    "height": 256,
+    "centerX": 131,
+    "centerY": 159,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 40,
+    "kind": "spr",
+    "frame0size": [
+      1,
+      1
+    ],
+    "frame0origin": [
+      128,
+      128
+    ],
+    "file": "99F79396.webp"
+  },
+  {
+    "hash": "9A849235",
+    "raw": 6124,
+    "packed": 1280,
+    "method": 32,
+    "width": 67,
+    "height": 19,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 4,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      67,
+      19
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "9A849235.webp"
+  },
+  {
+    "hash": "9B9F5C75",
+    "raw": 6104,
+    "packed": 1643,
+    "method": 32,
+    "width": 93,
+    "height": 26,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 2,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      93,
+      26
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "9B9F5C75.webp"
+  },
+  {
+    "hash": "A0790E4A",
+    "raw": 442361,
+    "packed": 307010,
+    "method": 16,
+    "width": 120,
+    "height": 98,
+    "centerX": 62,
+    "centerY": 53,
+    "frames": 19,
+    "colors": 256,
+    "directions": 1,
+    "interval": 111,
+    "kind": "spr",
+    "frame0size": [
+      120,
+      94
+    ],
+    "frame0origin": [
+      0,
+      4
+    ],
+    "file": "A0790E4A.webp"
+  },
+  {
+    "hash": "A140ED2F",
+    "raw": 532814,
+    "packed": 354017,
+    "method": 16,
+    "width": 500,
+    "height": 300,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      176,
+      66
+    ],
+    "frame0origin": [
+      72,
+      50
+    ],
+    "file": "A140ED2F.webp"
+  },
+  {
+    "hash": "A179E9FC",
+    "raw": 4120,
+    "packed": 1013,
+    "method": 32,
+    "width": 52,
+    "height": 15,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 4,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      52,
+      15
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "A179E9FC.webp"
+  },
+  {
+    "hash": "A2C39D72",
+    "raw": 529519,
+    "packed": 395841,
+    "method": 16,
+    "width": 150,
+    "height": 120,
+    "centerX": 75,
+    "centerY": 74,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 60,
+    "kind": "spr",
+    "frame0size": [
+      147,
+      115
+    ],
+    "frame0origin": [
+      3,
+      1
+    ],
+    "file": "A2C39D72.webp"
+  },
+  {
+    "hash": "A408A8EF",
+    "raw": 278297,
+    "packed": 157959,
+    "method": 16,
+    "width": 640,
+    "height": 480,
+    "centerX": 318,
+    "centerY": 274,
+    "frames": 10,
+    "colors": 256,
+    "directions": 1,
+    "interval": 150,
+    "kind": "spr",
+    "frame0size": [
+      116,
+      115
+    ],
+    "frame0origin": [
+      262,
+      177
+    ],
+    "file": "A408A8EF.webp"
+  },
+  {
+    "hash": "A5AA43B5",
+    "raw": 576026,
+    "packed": 373932,
+    "method": 16,
+    "width": 130,
+    "height": 143,
+    "centerX": 64,
+    "centerY": 121,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 40,
+    "kind": "spr",
+    "frame0size": [
+      130,
+      143
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "A5AA43B5.webp"
+  },
+  {
+    "hash": "A9E664A6",
+    "raw": 509226,
+    "packed": 252724,
+    "method": 16,
+    "width": 128,
+    "height": 200,
+    "centerX": 67,
+    "centerY": 145,
+    "frames": 16,
+    "colors": 256,
+    "directions": 1,
+    "interval": 30,
+    "kind": "spr",
+    "frame0size": [
+      1,
+      1
+    ],
+    "frame0origin": [
+      64,
+      100
+    ],
+    "file": "A9E664A6.webp"
+  },
+  {
+    "hash": "ABCC9E4E",
+    "raw": 191879,
+    "packed": 134248,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 66,
+    "centerY": 100,
+    "frames": 30,
+    "colors": 256,
+    "directions": 1,
+    "interval": 66,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "ABCC9E4E.webp"
+  },
+  {
+    "hash": "ABD810D5",
+    "raw": 1235,
+    "packed": 963,
+    "method": 32,
+    "width": 20,
+    "height": 22,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      20,
+      22
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "ABD810D5.webp"
+  },
+  {
+    "hash": "B24331DB",
+    "raw": 3338,
+    "packed": 1019,
+    "method": 32,
+    "width": 52,
+    "height": 15,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 3,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      52,
+      15
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "B24331DB.webp"
+  },
+  {
+    "hash": "B467B463",
+    "raw": 2761,
+    "packed": 1561,
+    "method": 32,
+    "width": 107,
+    "height": 30,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      107,
+      30
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "B467B463.webp"
+  },
+  {
+    "hash": "B4CAA289",
+    "raw": 966244,
+    "packed": 516673,
+    "method": 16,
+    "width": 162,
+    "height": 190,
+    "centerX": 78,
+    "centerY": 114,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      162,
+      190
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "B4CAA289.webp"
+  },
+  {
+    "hash": "B5A4362F",
+    "raw": 34426,
+    "packed": 21825,
+    "method": 32,
+    "width": 182,
+    "height": 175,
+    "centerX": 90,
+    "centerY": 93,
+    "frames": 21,
+    "colors": 256,
+    "directions": 1,
+    "interval": 75,
+    "kind": "spr",
+    "frame0size": [
+      120,
+      127
+    ],
+    "frame0origin": [
+      23,
+      27
+    ],
+    "file": "B5A4362F.webp"
+  },
+  {
+    "hash": "B6182C3D",
+    "raw": 1215593,
+    "packed": 823897,
+    "method": 16,
+    "width": 510,
+    "height": 510,
+    "centerX": 258,
+    "centerY": 279,
+    "frames": 24,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      182,
+      157
+    ],
+    "frame0origin": [
+      170,
+      180
+    ],
+    "file": "B6182C3D.webp"
+  },
+  {
+    "hash": "B82F2970",
+    "raw": 561444,
+    "packed": 389058,
+    "method": 16,
+    "width": 171,
+    "height": 170,
+    "centerX": 85,
+    "centerY": 108,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 40,
+    "kind": "spr",
+    "frame0size": [
+      123,
+      147
+    ],
+    "frame0origin": [
+      24,
+      14
+    ],
+    "file": "B82F2970.webp"
+  },
+  {
+    "hash": "B9EB2F3F",
+    "raw": 673498,
+    "packed": 463657,
+    "method": 16,
+    "width": 145,
+    "height": 128,
+    "centerX": 72,
+    "centerY": 80,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      145,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "B9EB2F3F.webp"
+  },
+  {
+    "hash": "B9FF4C93",
+    "raw": 182766,
+    "packed": 132036,
+    "method": 16,
+    "width": 168,
+    "height": 149,
+    "centerX": 84,
+    "centerY": 80,
+    "frames": 10,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      161,
+      128
+    ],
+    "frame0origin": [
+      7,
+      7
+    ],
+    "file": "B9FF4C93.webp"
+  },
+  {
+    "hash": "C342BE52",
+    "raw": 118607,
+    "packed": 7529,
+    "method": 32,
+    "width": 223,
+    "height": 453,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      223,
+      439
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "C342BE52.webp"
+  },
+  {
+    "hash": "C62462DB",
+    "raw": 262476,
+    "packed": 110264,
+    "method": 16,
+    "width": 130,
+    "height": 100,
+    "centerX": 65,
+    "centerY": 50,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 50,
+    "kind": "spr",
+    "frame0size": [
+      130,
+      100
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "C62462DB.webp"
+  },
+  {
+    "hash": "C6795D48",
+    "raw": 3032,
+    "packed": 2135,
+    "method": 32,
+    "width": 22,
+    "height": 22,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 3,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      22,
+      22
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "C6795D48.webp"
+  },
+  {
+    "hash": "C6F76099",
+    "raw": 202400,
+    "packed": 119266,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 64,
+    "centerY": 82,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 55,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "C6F76099.webp"
+  },
+  {
+    "hash": "C85E93FD",
+    "raw": 544401,
+    "packed": 295566,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 64,
+    "centerY": 84,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "C85E93FD.webp"
+  },
+  {
+    "hash": "C9035D66",
+    "raw": 763472,
+    "packed": 410412,
+    "method": 16,
+    "width": 191,
+    "height": 145,
+    "centerX": 95,
+    "centerY": 85,
+    "frames": 13,
+    "colors": 256,
+    "directions": 1,
+    "interval": 70,
+    "kind": "spr",
+    "frame0size": [
+      191,
+      145
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "C9035D66.webp"
+  },
+  {
+    "hash": "CA527407",
+    "raw": 1947074,
+    "packed": 1111537,
+    "method": 16,
+    "width": 510,
+    "height": 510,
+    "centerX": 250,
+    "centerY": 352,
+    "frames": 24,
+    "colors": 256,
+    "directions": 1,
+    "interval": 70,
+    "kind": "spr",
+    "frame0size": [
+      403,
+      382
+    ],
+    "frame0origin": [
+      60,
+      110
+    ],
+    "file": "CA527407.webp"
+  },
+  {
+    "hash": "CE631187",
+    "raw": 6124,
+    "packed": 1274,
+    "method": 32,
+    "width": 67,
+    "height": 19,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 4,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      67,
+      19
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "CE631187.webp"
+  },
+  {
+    "hash": "D005D8AE",
+    "raw": 4793,
+    "packed": 1101,
+    "method": 32,
+    "width": 67,
+    "height": 19,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 3,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      67,
+      19
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "D005D8AE.webp"
+  },
+  {
+    "hash": "D21730D4",
+    "raw": 1067952,
+    "packed": 684973,
+    "method": 16,
+    "width": 162,
+    "height": 190,
+    "centerX": 79,
+    "centerY": 114,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      162,
+      190
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "D21730D4.webp"
+  },
+  {
+    "hash": "D2EC2959",
+    "raw": 576026,
+    "packed": 373932,
+    "method": 16,
+    "width": 130,
+    "height": 143,
+    "centerX": 64,
+    "centerY": 121,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 40,
+    "kind": "spr",
+    "frame0size": [
+      130,
+      143
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "D2EC2959.webp"
+  },
+  {
+    "hash": "D3682D62",
+    "raw": 724645,
+    "packed": 558955,
+    "method": 16,
+    "width": 500,
+    "height": 300,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      200,
+      75
+    ],
+    "frame0origin": [
+      59,
+      43
+    ],
+    "file": "D3682D62.webp"
+  },
+  {
+    "hash": "D59D68C2",
+    "raw": 398965,
+    "packed": 290864,
+    "method": 16,
+    "width": 138,
+    "height": 110,
+    "centerX": 70,
+    "centerY": 61,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      138,
+      110
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "D59D68C2.webp"
+  },
+  {
+    "hash": "D5B6123A",
+    "raw": 398965,
+    "packed": 290864,
+    "method": 16,
+    "width": 138,
+    "height": 110,
+    "centerX": 70,
+    "centerY": 61,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      138,
+      110
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "D5B6123A.webp"
+  },
+  {
+    "hash": "D7EF2375",
+    "raw": 506566,
+    "packed": 360927,
+    "method": 16,
+    "width": 153,
+    "height": 173,
+    "centerX": 74,
+    "centerY": 121,
+    "frames": 30,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      150,
+      173
+    ],
+    "frame0origin": [
+      3,
+      0
+    ],
+    "file": "D7EF2375.webp"
+  },
+  {
+    "hash": "D8DD7737",
+    "raw": 462143,
+    "packed": 276698,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 63,
+    "centerY": 84,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "D8DD7737.webp"
+  },
+  {
+    "hash": "DA2E916A",
+    "raw": 659830,
+    "packed": 496245,
+    "method": 16,
+    "width": 500,
+    "height": 300,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 20,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      200,
+      75
+    ],
+    "frame0origin": [
+      58,
+      42
+    ],
+    "file": "DA2E916A.webp"
+  },
+  {
+    "hash": "DAFC3F91",
+    "raw": 7298,
+    "packed": 3075,
+    "method": 32,
+    "width": 74,
+    "height": 26,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 3,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      74,
+      26
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "DAFC3F91.webp"
+  },
+  {
+    "hash": "DE43C3AB",
+    "raw": 219194,
+    "packed": 160956,
+    "method": 16,
+    "width": 120,
+    "height": 91,
+    "centerX": 60,
+    "centerY": 50,
+    "frames": 10,
+    "colors": 256,
+    "directions": 1,
+    "interval": 111,
+    "kind": "spr",
+    "frame0size": [
+      120,
+      91
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "DE43C3AB.webp"
+  },
+  {
+    "hash": "DF152A4D",
+    "raw": 1280,
+    "packed": 833,
+    "method": 32,
+    "width": 17,
+    "height": 14,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      15,
+      12
+    ],
+    "frame0origin": [
+      1,
+      1
+    ],
+    "file": "DF152A4D.webp"
+  },
+  {
+    "hash": "E0DB7F50",
+    "raw": 202580,
+    "packed": 121321,
+    "method": 16,
+    "width": 156,
+    "height": 149,
+    "centerX": 76,
+    "centerY": 115,
+    "frames": 10,
+    "colors": 256,
+    "directions": 1,
+    "interval": 150,
+    "kind": "spr",
+    "frame0size": [
+      156,
+      102
+    ],
+    "frame0origin": [
+      0,
+      47
+    ],
+    "file": "E0DB7F50.webp"
+  },
+  {
+    "hash": "E0EA5FAB",
+    "raw": 1551,
+    "packed": 1398,
+    "method": 32,
+    "width": 24,
+    "height": 24,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      24,
+      24
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "E0EA5FAB.webp"
+  },
+  {
+    "hash": "E2A7C630",
+    "raw": 86887,
+    "packed": 7536,
+    "method": 32,
+    "width": 223,
+    "height": 325,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      223,
+      325
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "E2A7C630.webp"
+  },
+  {
+    "hash": "E413DDD5",
+    "raw": 231486,
+    "packed": 111171,
+    "method": 16,
+    "width": 103,
+    "height": 116,
+    "centerX": 51,
+    "centerY": 78,
+    "frames": 11,
+    "colors": 256,
+    "directions": 1,
+    "interval": 50,
+    "kind": "spr",
+    "frame0size": [
+      103,
+      116
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "E413DDD5.webp"
+  },
+  {
+    "hash": "E4C3CD3C",
+    "raw": 6124,
+    "packed": 1192,
+    "method": 32,
+    "width": 67,
+    "height": 19,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 4,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      67,
+      19
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "E4C3CD3C.webp"
+  },
+  {
+    "hash": "E7606A13",
+    "raw": 182766,
+    "packed": 132036,
+    "method": 16,
+    "width": 168,
+    "height": 149,
+    "centerX": 84,
+    "centerY": 80,
+    "frames": 10,
+    "colors": 256,
+    "directions": 1,
+    "interval": 80,
+    "kind": "spr",
+    "frame0size": [
+      161,
+      128
+    ],
+    "frame0origin": [
+      7,
+      7
+    ],
+    "file": "E7606A13.webp"
+  },
+  {
+    "hash": "EA567C6D",
+    "raw": 225579,
+    "packed": 147655,
+    "method": 16,
+    "width": 203,
+    "height": 370,
+    "centerX": 110,
+    "centerY": 430,
+    "frames": 18,
+    "colors": 256,
+    "directions": 1,
+    "interval": 90,
+    "kind": "spr",
+    "frame0size": [
+      123,
+      204
+    ],
+    "frame0origin": [
+      32,
+      145
+    ],
+    "file": "EA567C6D.webp"
+  },
+  {
+    "hash": "EA6CA14F",
+    "raw": 551603,
+    "packed": 401677,
+    "method": 16,
+    "width": 160,
+    "height": 160,
+    "centerX": 78,
+    "centerY": 106,
+    "frames": 10,
+    "colors": 256,
+    "directions": 1,
+    "interval": 56,
+    "kind": "spr",
+    "frame0size": [
+      159,
+      159
+    ],
+    "frame0origin": [
+      1,
+      0
+    ],
+    "file": "EA6CA14F.webp"
+  },
+  {
+    "hash": "EF21B5EF",
+    "raw": 398965,
+    "packed": 290864,
+    "method": 16,
+    "width": 138,
+    "height": 110,
+    "centerX": 70,
+    "centerY": 61,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 35,
+    "kind": "spr",
+    "frame0size": [
+      138,
+      110
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "EF21B5EF.webp"
+  },
+  {
+    "hash": "F09E4A27",
+    "raw": 2761,
+    "packed": 1825,
+    "method": 32,
+    "width": 107,
+    "height": 30,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 1,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      107,
+      30
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "F09E4A27.webp"
+  },
+  {
+    "hash": "F320F504",
+    "raw": 448772,
+    "packed": 351889,
+    "method": 16,
+    "width": 135,
+    "height": 100,
+    "centerX": 66,
+    "centerY": 50,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 60,
+    "kind": "spr",
+    "frame0size": [
+      131,
+      100
+    ],
+    "frame0origin": [
+      4,
+      0
+    ],
+    "file": "F320F504.webp"
+  },
+  {
+    "hash": "F59F895F",
+    "raw": 4961,
+    "packed": 1317,
+    "method": 32,
+    "width": 67,
+    "height": 19,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 3,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      67,
+      19
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "F59F895F.webp"
+  },
+  {
+    "hash": "F71F1CFB",
+    "raw": 7298,
+    "packed": 2939,
+    "method": 32,
+    "width": 74,
+    "height": 26,
+    "centerX": 0,
+    "centerY": 0,
+    "frames": 3,
+    "colors": 256,
+    "directions": 1,
+    "interval": 1,
+    "kind": "spr",
+    "frame0size": [
+      74,
+      26
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "F71F1CFB.webp"
+  },
+  {
+    "hash": "F819B936",
+    "raw": 506350,
+    "packed": 294896,
+    "method": 16,
+    "width": 128,
+    "height": 128,
+    "centerX": 64,
+    "centerY": 90,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 40,
+    "kind": "spr",
+    "frame0size": [
+      128,
+      128
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "F819B936.webp"
+  },
+  {
+    "hash": "FB5D5651",
+    "raw": 2165599,
+    "packed": 1435523,
+    "method": 16,
+    "width": 280,
+    "height": 240,
+    "centerX": 139,
+    "centerY": 132,
+    "frames": 15,
+    "colors": 256,
+    "directions": 1,
+    "interval": 50,
+    "kind": "spr",
+    "frame0size": [
+      275,
+      240
+    ],
+    "frame0origin": [
+      0,
+      0
+    ],
+    "file": "FB5D5651.webp"
+  },
+  {
+    "hash": "FCBF5A26",
+    "raw": 179913,
+    "packed": 179913,
+    "method": 0,
+    "kind": "other",
+    "sig": "ffd8ffe000104a4649460001",
+    "file": "FCBF5A26.jpg"
+  },
+  {
+    "hash": "FDCF0DC7",
+    "raw": 167682,
+    "packed": 167682,
+    "method": 0,
+    "kind": "other",
+    "sig": "ffd8ffe000104a4649460001",
+    "file": "FDCF0DC7.jpg"
+  }
+]

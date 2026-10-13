@@ -1,0 +1,94 @@
+/* Võ Lâm Idle H5 - PC Client V24.9: non-destructive UI layer, above V24.8 */
+#vli-pc-v24 .pc-window.pc249-character .pc248-char-stats{display:none!important}
+#vli-pc-v24 .pc-window.pc249-character .v243-character-labels{display:none!important}
+#vli-pc-v24 .pc-window.pc249-character .pc249-character-content{
+  position:absolute;z-index:12;top:57px;left:8px;width:200px;height:301px;
+  color:#e9deb0;background:linear-gradient(#0d1c13f3,#08130cf2);
+  border:1px solid #746a4bcc;box-shadow:0 0 0 1px #19251b inset;
+  pointer-events:auto;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#7b673b #061109;
+}
+#vli-pc-v24 .pc249-char-scroll{padding:4px 6px;font:10px/1.27 Tahoma,Arial,sans-serif}
+#vli-pc-v24 .pc249-char-name,#vli-pc-v24 .pc249-char-line,
+#vli-pc-v24 .pc249-attr-remaining{display:flex;gap:4px;justify-content:space-between;align-items:center}
+#vli-pc-v24 .pc249-char-name{min-height:20px;border-bottom:1px solid #756647;color:#f0d49f}
+#vli-pc-v24 .pc249-char-name strong{color:#74e492;max-width:145px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#vli-pc-v24 .pc249-char-line{font-size:9px;color:#d6cfab;border-bottom:1px solid #324937;padding:5px 0}
+#vli-pc-v24 .pc249-char-health{color:#68e07a;padding:6px 0 4px;font:10px/1.6 Tahoma,sans-serif}
+#vli-pc-v24 .pc249-attr-remaining{margin-top:3px;border-top:1px solid #92804f;border-bottom:1px solid #92804f;
+ padding:5px 1px;color:#eedba7;font-weight:bold}
+#vli-pc-v24 .pc249-attr-remaining strong{font-size:13px;color:#f49558;font-weight:bold}
+#vli-pc-v24 .pc249-attribute-list{display:flex;flex-direction:column;gap:3px;padding:5px 0}
+#vli-pc-v24 .pc249-attribute-row{display:grid;grid-template-columns:minmax(0,1fr) 43px 23px;
+ gap:3px;align-items:center;min-height:26px;background:#112017a8;border-bottom:1px solid #334432}
+#vli-pc-v24 .pc249-attribute-name{color:#efdaa2;white-space:nowrap}
+#vli-pc-v24 .pc249-attribute-value{text-align:right;color:#f1ce75;font:bold 11px Tahoma;white-space:nowrap}
+#vli-pc-v24 .pc249-attr-add{width:22px;height:21px;padding:0;background:#9c281f;
+ color:#fff9dc;font:bold 16px/19px Arial,sans-serif;border:2px ridge #dfc7a0;
+ cursor:pointer;text-shadow:0 1px 1px #000;box-shadow:0 1px 2px #0007}
+#vli-pc-v24 .pc249-attr-add:hover{filter:brightness(1.3);border-color:#fff0b2}
+#vli-pc-v24 .pc249-attr-add:disabled{opacity:.4;cursor:not-allowed;filter:grayscale(.7)}
+#vli-pc-v24 .pc249-attr-note{font:9px/1.4 Tahoma,sans-serif;color:#a5b59b;margin:6px 0 1px}
+/* ALL combat, buff, passive skills in ONE 5-column PC client grid. */
+#vli-pc-v24 .pc-window.pc249-skills .v242-skills-list,
+#vli-pc-v24 .pc-window.pc249-skills .pc248-skills-tabs,
+#vli-pc-v24 .pc-window.pc249-skills .v243-skills-labels{display:none!important}
+#vli-pc-v24 .pc-window.pc249-skills .pc249-unified-skills{
+ position:absolute;left:7px;right:7px;top:45px;bottom:42px;z-index:13;pointer-events:auto;
+ background:#0a100be6;border:1px solid #47533a;display:flex;flex-direction:column;min-height:0;
+}
+#vli-pc-v24 .pc249-skill-heading{flex:0 0 16px;background:#2e3a2b;color:#ddc891;
+ text-align:center;font:10px/16px Tahoma,Arial,sans-serif;border-bottom:1px solid #79694a}
+#vli-pc-v24 .pc249-skill-grid{display:grid;grid-template-columns:repeat(5,1fr);
+ grid-auto-rows:37px;gap:1px;flex:1;overflow:auto;align-content:start;scrollbar-width:thin;scrollbar-color:#87714b #080e0a}
+#vli-pc-v24 .pc249-skill-cell{position:relative;width:100%;height:37px;min-width:0;
+ display:flex;align-items:center;justify-content:center;background:#132017;
+ border:1px solid #556047;color:#e2d5a0;padding:1px;cursor:pointer}
+#vli-pc-v24 .pc249-skill-cell img{max-width:32px;max-height:31px;object-fit:contain;pointer-events:none}
+#vli-pc-v24 .pc249-skill-cell small{position:absolute;right:0;bottom:0;color:#63e5fe;
+ font:bold 9px Tahoma,Arial,sans-serif;background:#07120be0;pointer-events:none}
+#vli-pc-v24 .pc249-skill-cell:hover,#vli-pc-v24 .pc249-skill-cell.pc249-skill-active{outline:1px solid #e2cc76;z-index:1;background:#324029}
+#vli-pc-v24 .pc249-skill-cell.pc249-support-skill{border-color:#4c614f}
+#vli-pc-v24 .pc249-no-skills{grid-column:1/-1;text-align:center;font:11px Tahoma;color:#d2bb87;padding-top:20px}
+#vli-pc-v24 .pc-window.pc249-skills .v242-skills-close{z-index:15}
+/* Inventory: keep 6 x 10 item cells from game V6, add real blank cells rather than ghost objects. */
+#vli-pc-v24 .pc-window.pc249-inventory .v243-inventory-labels{display:none!important}
+#vli-pc-v24 .pc-window.pc249-inventory .v242-inv-grid{left:23px!important;top:65px!important;
+ width:168px!important;grid-template-columns:repeat(6,28px)!important;grid-auto-rows:28px!important;
+ background:#06100922;outline:1px solid #5a5a3a7a}
+#vli-pc-v24 .pc-window.pc249-inventory .v242-inv-item{width:28px!important;height:28px!important;
+ background:#09100c30;border:1px solid #3e4639a0;padding:1px;z-index:1}
+#vli-pc-v24 .pc-window.pc249-inventory .v242-inv-item:hover{background:#94804c70;border-color:#dfc76d}
+#vli-pc-v24 .pc-window.pc249-inventory .pc249-inv-empty{width:28px;height:28px;padding:0;
+ background:#05080640;border:1px solid #333b32a5;pointer-events:none;opacity:1}
+#vli-pc-v24 .pc-window.pc249-inventory .pc249-bag-count{position:absolute;left:32px;right:32px;top:350px;
+ text-align:center;color:#e2d4a0;font:10px Tahoma;text-shadow:0 1px 3px #000;pointer-events:none;z-index:6}
+#vli-pc-v24 .pc-window.pc249-inventory .v242-inv-nav{z-index:7}
+/* Move all three native consumable/utility actions into numbered 1-2-3 PC hotbar slots. */
+#vli-pc-v24 .pc-hud.pc249-hud .hud-potions,
+#vli-pc-v24 .pc-hud.pc249-hud .v242-teleport,
+#vli-pc-v24 .pc-hud.pc249-hud .v242-main,
+#vli-pc-v24 .pc-hud.pc249-hud .v242-rotate{display:none!important}
+#vli-pc-v24 .pc249-itembar{position:absolute;left:210px;bottom:11px;z-index:30;
+ display:flex;gap:3px;pointer-events:auto}
+#vli-pc-v24 .pc249-item-hotkey,#vli-pc-v24 .pc249-attack-hotkey{position:relative;
+ width:29px;height:29px;border:1px solid #94784d;
+ background:#08130c url('../vli-pc-v24/assets/pc-v21/native-pc-slot-v21.webp') center/100% 100% no-repeat;
+ color:#eadca3;padding:0;cursor:pointer;box-shadow:0 1px 3px #000b;pointer-events:auto}
+#vli-pc-v24 .pc249-item-hotkey:hover,#vli-pc-v24 .pc249-attack-hotkey:hover{filter:brightness(1.2);border-color:#f6d68a}
+#vli-pc-v24 .pc249-hotkey-number{position:absolute;left:1px;top:0;z-index:2;color:#fff2c3;
+ font:bold 9px Tahoma;text-shadow:0 1px 2px #000}
+#vli-pc-v24 .pc249-hotkey-visual{display:flex;align-items:center;justify-content:center;
+ width:100%;height:100%;color:#edce80;font:19px serif;text-shadow:0 1px 2px #000}
+#vli-pc-v24 .pc249-hotkey-visual img{width:23px;height:23px;object-fit:contain}
+#vli-pc-v24 .pc249-item-count{position:absolute;right:0;bottom:0;font:8px Tahoma;color:#f5d2a0;background:#020902dd}
+/* Two combat slots to the RIGHT of the existing F1-F4 hotkeys. */
+#vli-pc-v24 .pc249-attacks{position:absolute;left:448px;bottom:11px;z-index:30;
+ display:flex;gap:4px;pointer-events:auto}
+#vli-pc-v24 .pc249-attack-hotkey{width:32px;height:29px}
+#vli-pc-v24 .pc249-attack-hotkey.pc249-current{border-color:#f3ca64;box-shadow:0 0 6px #ddb65aaa}
+#vli-pc-v24 .pc249-skill-image{position:absolute;inset:2px 2px 4px;background-size:contain;
+ background-position:center;background-repeat:no-repeat;pointer-events:none}
+#vli-pc-v24 .pc249-attack-label{position:absolute;bottom:0;right:0;font:8px Tahoma;
+ color:#e2cfa5;background:#061108c9;pointer-events:none}
+#vli-pc-v24 .pc249-item-hotkey:focus-visible,#vli-pc-v24 .pc249-attack-hotkey:focus-visible,
+#vli-pc-v24 .pc249-skill-cell:focus-visible{outline:2px solid #e6d275}

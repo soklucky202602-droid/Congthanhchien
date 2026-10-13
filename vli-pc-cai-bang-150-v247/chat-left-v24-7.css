@@ -1,0 +1,18 @@
+/* UI-only chat positioning fix for the full PC client V24 shell. */
+body.vli-pc-ui-v24 #vli-pc-v24 .chat {
+  left: 8px !important;
+  right: auto !important;
+  bottom: 94px !important;
+  width: min(334px, calc(100vw - 16px)) !important;
+  height: clamp(105px, 18vh, 165px) !important;
+  max-width: calc(100vw - 16px) !important;
+  z-index: 12 !important;
+}
+@media (max-width: 750px) {
+  body.vli-pc-ui-v24 #vli-pc-v24 .chat {
+    left: 4px !important;
+    bottom: 82px !important;
+    width: min(250px, calc(100vw - 8px)) !important;
+    height: 108px !important;
+  }
+}

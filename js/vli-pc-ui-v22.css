@@ -1,0 +1,263 @@
+/* Võ Lâm Idle Offline — V22 PC UI, authentic decoded JX/Kingsoft SPR border artwork.
+   This file changes existing DOM appearance; no gameplay forms are rebuilt or replaced.
+   Requires V21 UI to be on. Fallback to V21 at widths below 900px / heights below 560px. */
+#v22-toggle{display:none}
+@media (min-width:900px) and (min-height:560px){body.vli-pc-ui-v21.u20 #v22-toggle{display:inline-flex!important;cursor:pointer!important}}
+@media (min-width:900px) and (min-height:560px){
+ body.vli-pc-ui-v22.u20{
+  --pc22-gold:#e9d49b;--pc22-bronze:#968060;--pc22-shadow:#040806;
+  --pc22-glass:rgba(10,17,13,.94);--pc22-ornament:url(ui/pc-v22/pc-frame-nine-slice.webp);
+  --pc22-ui-frame:url(ui/pc-v22/pc-ui-frame-nine-slice.webp);
+  color:var(--pc22-gold)!important;
+ }
+ /* Same original HUD and skill/click handlers: only frame design and exact desktop geometry. */
+ body.vli-pc-ui-v22.u20 #hud{
+  background:linear-gradient(#151c15e8,#090e0aea)!important;
+  border:6px solid transparent!important;
+  border-image:var(--pc22-ornament) 24 fill/6px/0 stretch!important;
+  box-shadow:0 2px 13px #0009!important;
+  color:#f2e0af!important;
+  padding:0 7px!important;gap:4px!important;
+ }
+ body.vli-pc-ui-v22.u20 #hud .bar{
+  border:1px solid #83704b!important;border-radius:0!important;
+  box-shadow:inset 0 1px 4px #000d,0 0 0 1px #21251c!important;
+  background:#050a07!important;
+ }
+ body.vli-pc-ui-v22.u20 #hud .bar.hp i{
+  background:linear-gradient(180deg,#e66e5c 0%,#b52020 45%,#680e0f 100%)!important;
+ }
+ body.vli-pc-ui-v22.u20 #hud .bar.mp i{
+  background:linear-gradient(180deg,#7ebff4,#3276b6 45%,#183664)!important;
+ }
+ body.vli-pc-ui-v22.u20 #hud .bar.xp i{
+  background:linear-gradient(180deg,#f2dc8e,#aa9547 45%,#53411c)!important;
+ }
+ /* Right minimap: actual decoded 214 x 454 PC window border, centre transparent/dark.
+    The map itself remains the live H5 canvas/DOM. */
+ body.vli-pc-ui-v22.v8-jx #v8mapframe{
+  border:9px solid transparent!important;
+  border-image:var(--pc22-ornament) 24 fill/9px/0 stretch!important;
+  background-color:#0b150d!important;background-image:none!important;
+  border-radius:0!important;
+  box-shadow:0 3px 13px #000c!important;
+ }
+ body.vli-pc-ui-v22.v8-jx #v8maptitle{
+  background:linear-gradient(#182219f0,#0b160ef0),url(ui/pc-v22/pc-header-ornament.webp) center top/100% 14px no-repeat!important;
+  color:#d6f0b6!important;border:1px solid #786d46!important;
+  box-shadow:0 1px 0 #000e,inset 0 1px #b6a17655!important;
+  text-shadow:0 1px #040b05!important;
+ }
+ body.vli-pc-ui-v22.v8-jx #v8left .v8action .v8ico,
+ body.vli-pc-ui-v22.v8-jx #v8right .v8side i{
+  background:#101810 url(ui/pc-v22/pc-native-dock-button.webp) center/100% 100% no-repeat!important;
+  border:1px solid #99855b!important;border-radius:0!important;color:#e3d294!important;
+ }
+ body.vli-pc-ui-v22.v8-jx #v8right .v8side,
+ body.vli-pc-ui-v22.v8-jx #v8left .v8action{
+  color:#e4dab9!important;background-color:#142015c9!important;
+  border:1px solid #867450!important;border-radius:0!important;
+ }
+ body.vli-pc-ui-v22.v8-jx #v8left .v8action:hover,
+ body.vli-pc-ui-v22.v8-jx #v8right .v8side:hover{
+  background-color:#3b4733d9!important;color:#fff1bf!important;
+ }
+ /* Bottom native SPR ornament strips, split to avoid scaling the actual hotkey cells.
+    The H5 hotbar remains clickable, with the same live icons, targets and cooldowns. */
+ body.vli-pc-ui-v22.v8-jx #v8bar{
+  background:linear-gradient(0deg,#020403 0%,#0a1410 47%,#1a251cba 75%,transparent 100%)!important;
+  border-bottom:3px solid #88744e!important;
+  box-shadow:0 0 0 1px #0a100c,0 4px 14px #000e!important;
+ }
+ body.vli-pc-ui-v22.v8-jx #v8bar::before{
+  content:"";position:absolute;pointer-events:none;z-index:0;
+  left:0;right:0;bottom:0;height:14px;
+  background-image:url(ui/pc-v22/pc-footer-ornament.webp);
+  background-size:214px 14px;background-repeat:repeat-x;opacity:.84;
+ }
+ body.vli-pc-ui-v22.v8-jx #v8bar #pad{
+  border:9px solid transparent!important;
+  border-image:var(--pc22-ornament) 24 fill/9px/0 stretch!important;
+  box-shadow:0 0 7px #0009!important;
+  background-color:#0a140d!important;
+ }
+ body.vli-pc-ui-v22.v8-jx #v8bar .v8tile,
+ body.vli-pc-ui-v22.v8-jx #pad .pbtn{
+  background-color:#060c08!important;
+  background-image:url(ui/pc-v21/native-pc-slot-v21.webp)!important;
+  background-size:100% 100%!important;
+  border:1px solid #615940!important;border-radius:0!important;
+  box-shadow:inset 0 1px 5px #000e!important;
+ }
+ body.vli-pc-ui-v22.v8-jx #v8bar .v8tile:hover,
+ body.vli-pc-ui-v22.v8-jx #pad .pbtn:hover{
+  border-color:#d8bc7c!important;
+ }
+ body.vli-pc-ui-v22.v8-jx #pad .pbtn.mn,
+ body.vli-pc-ui-v22.v8-jx #pad .pbtn.cur{
+  border-color:#e7c67a!important;box-shadow:0 0 5px #efc67095!important;
+ }
+ /* Actual chat messages and input remain active. Do not remove event listeners. */
+ body.vli-pc-ui-v22.u20 #u20lines{
+  color:#ead79b!important;
+  background:linear-gradient(90deg,#070b07e3,#0e150bb6 76%,#0a13092b)!important;
+  text-shadow:0 1px #000!important;
+  scrollbar-width:thin;scrollbar-color:#786441 #101911;
+ }
+ body.vli-pc-ui-v22.u20 :is(#chatinput,#v8chatinput,#chatText,#u20chatinput),
+ body.vli-pc-ui-v22.u20 #u20lines input{
+  background:#080f0a!important;border:1px solid #877754!important;color:#f3dcb0!important;
+ }
+ /* PC windows with genuine corners, ribbons and original skins, not drawn replacements.
+    Vertical inner panel content is kept as H5 because actions, inputs and icons are dynamic. */
+ body.vli-pc-ui-v22.u20.u20win #panel,
+ body.vli-pc-ui-v22.u20 #modal .mbox{
+  border:13px solid transparent!important;
+  border-image:var(--pc22-ornament) 24 fill/13px/0 stretch!important;
+  background:#121a14!important;
+  border-radius:0!important;outline:1px solid #11180e!important;
+  box-shadow:0 0 0 1px #817452,0 10px 24px #000e!important;
+  scrollbar-color:#9c8351 #121a12;
+ }
+ body.vli-pc-ui-v22.u20 #u20wh{
+  color:#f8df9e!important;
+  background:linear-gradient(#343729,#172017),url(ui/pc-v22/pc-header-ornament.webp) center 0/100% 15px no-repeat!important;
+  border-bottom:1px solid #ae9965!important;
+  min-height:30px!important;text-shadow:0 1px 2px #000e!important;
+ }
+ body.vli-pc-ui-v22.u20 #u20wx,
+ body.vli-pc-ui-v22.u20 #modal .mx{
+  background:transparent url(ui/pc-v22/pc-original-ui-close.webp) center/22px 22px no-repeat!important;
+ }
+ body.vli-pc-ui-v22.u20 #u20wx:hover,
+ body.vli-pc-ui-v22.u20 #modal .mx:hover{filter:brightness(1.18)!important}
+ body.vli-pc-ui-v22.u20 :is(#panel,#modal) .btn:not(.pcui-native-button):not(.v21-native-button),
+ body.vli-pc-ui-v22.u20 :is(#panel,#modal) button.v22-skin-button{
+  background:#1c271c url(ui/pc-v22/pc-native-dock-button.webp) center/100% 100% no-repeat!important;
+  color:#f3dfa9!important;border:1px solid #9d8557!important;
+  border-radius:0!important;box-shadow:inset 0 0 0 1px #141b14!important;
+  text-shadow:0 1px 2px #030604!important;
+ }
+ body.vli-pc-ui-v22.u20 :is(#panel,#modal) button.v22-skin-button:hover{
+  filter:brightness(1.2)!important;
+ }
+ body.vli-pc-ui-v22.u20 :is(#panel,#modal) button:focus-visible,
+ body.vli-pc-ui-v22.u20 #v21-dock button:focus-visible{
+  outline:2px solid #f7d587!important;outline-offset:2px!important;
+ }
+ /* Inventory: show the live six-column H5 bag, but give it genuine PC item backgrounds. */
+ body.vli-pc-ui-v22.u20.u20win[data-u2t="inv"] #panel{
+  width:275px!important;max-height:calc(100vh - 110px)!important;
+ }
+ body.vli-pc-ui-v22.u20.u20win.u2rxon[data-u2t="inv"] #panel{
+  width:540px!important;max-width:calc(100vw - 28px)!important;
+ }
+ body.vli-pc-ui-v22.u20 .u2bag .invgrid{
+  border:4px solid transparent!important;
+  border-image:var(--pc22-ui-frame) 24 fill/4px/0 stretch!important;
+  padding:1px!important;gap:1px!important;
+ }
+ body.vli-pc-ui-v22.u20 .u2bag .invgrid .it{
+  background:#070c08 url(ui/pc-v21/native-pc-slot-v21.webp) center/100% 100% no-repeat!important;
+  border:1px solid #5e563b!important;
+ }
+ body.vli-pc-ui-v22.u20 .u2bag .invgrid .it:hover{border-color:#ecc77a!important}
+ body.vli-pc-ui-v22.u20 .u2bh,
+ body.vli-pc-ui-v22.u20 .u2money,
+ body.vli-pc-ui-v22.u20 .u2act{color:#e1cd9c!important}
+ body.vli-pc-ui-v22.u20 :is(.u2doll,.u2tree,.u2qd,.u2box){
+  border:6px solid transparent!important;
+  border-image:var(--pc22-ornament) 24 fill/6px/0 stretch!important;
+  background-color:#0b130c!important;
+ }
+ /* Martial skills: the original H5 skill system continues to own its real tiles, tree and actions. */
+ body.vli-pc-ui-v22.v9-jx .v9-skill-book,
+ body.vli-pc-ui-v22.v9-jx .v9-skill-learn{
+  border:13px solid transparent!important;
+  border-image:var(--pc22-ornament) 24 fill/13px/0 stretch!important;
+  background-color:#111912!important;border-radius:0!important;
+ }
+ body.vli-pc-ui-v22.v9-jx .v9-book-title,
+ body.vli-pc-ui-v22.v9-jx .v9-learn-header{
+  background:linear-gradient(#3b3d2d,#151f18)!important;
+  color:#ffdf9f!important;border-bottom:1px solid #997b50!important;
+ }
+ body.vli-pc-ui-v22.v9-jx .v9-skill-grid{
+  border:4px solid transparent!important;
+  border-image:var(--pc22-ui-frame) 24 fill/4px/0 stretch!important;
+  background-color:#0b140e!important;
+ }
+ body.vli-pc-ui-v22.v9-jx .v9-skill-tile,
+ body.vli-pc-ui-v22.v9-jx .v9-grid-empty{
+  background:#0a140f url(ui/pc-v21/native-pc-slot-v21.webp) center/100% 100% no-repeat!important;
+  border:1px solid #615940!important;
+ }
+ body.vli-pc-ui-v22.v9-jx .v9-skill-tile.primary{border-color:#ffe09c!important}
+ body.vli-pc-ui-v22.v9-jx .v9-skill-card.is-selected,
+ body.vli-pc-ui-v22.v9-jx .v9-skill-tile.is-selected{outline:1px solid #c6a45b!important}
+ /* V21 quick buttons call ORIGINAL H5 u20menu actions. V22 only skins those buttons. */
+ body.vli-pc-ui-v22.u20 #v21-dock{
+  background:#0b150df2!important;
+  border:8px solid transparent!important;
+  border-image:var(--pc22-ornament) 24 fill/8px/0 stretch!important;
+  border-radius:0!important;
+  box-shadow:0 4px 15px #000d!important;
+  z-index:26!important;
+ }
+ body.vli-pc-ui-v22.u20 #v21-dock button{
+  background:#0b130b url(ui/pc-v22/pc-native-dock-button.webp) center/100% 100% no-repeat!important;
+  color:#f1daa4!important;
+  border:1px solid #6e674d!important;
+  box-shadow:inset 0 0 3px #0009!important;
+  border-radius:0!important;
+ }
+ body.vli-pc-ui-v22.u20 #v21-dock button:hover,
+ body.vli-pc-ui-v22.u20 #v21-dock button[aria-pressed="true"]{
+  border-color:#e5bd76!important;
+  filter:brightness(1.14)!important;
+ }
+ body.vli-pc-ui-v22.u20 #v21-dock button img{
+  filter:drop-shadow(0 1px 1px #000)!important;image-rendering:auto;
+ }
+ body.vli-pc-ui-v22.u20 #v22-toggle{
+  display:inline-flex!important;align-items:center!important;cursor:pointer!important;
+ }
+ body.vli-pc-ui-v22.u20 #v22-toggle[aria-pressed="false"] .v8ico{
+  filter:grayscale(.7)!important;
+ }
+ body.vli-pc-ui-v22-hide-dock.u20 #v21-dock{display:none!important}
+}
+/* Fixed positions are deliberately opt-out: use VLI_PC_UI_V22.setLayout('adaptive').
+   These 5 placement rules approximate the referenced 1727x888 screenshot. */
+@media (min-width:1200px) and (min-height:720px){
+ body.vli-pc-ui-v22-classic.u20 #hud{
+  position:fixed!important;left:50%!important;top:37px!important;
+  transform:translateX(-50%)!important;z-index:33!important;
+  max-width:560px!important;min-width:415px!important;
+ }
+ body.vli-pc-ui-v22-classic.v8-jx #v8right{
+  position:fixed!important;right:3px!important;top:40px!important;
+  z-index:31!important;max-width:202px!important;
+ }
+ body.vli-pc-ui-v22-classic.v8-jx #v8bar{
+  position:fixed!important;left:0!important;right:0!important;
+  bottom:0!important;z-index:25!important;
+ }
+ body.vli-pc-ui-v22-classic.u20 #v21-dock{
+  position:fixed!important;right:5px!important;left:auto!important;bottom:calc(42px + .8vh)!important;
+ }
+ body.vli-pc-ui-v22-classic.u20.u20win #panel{
+  max-height:calc(100vh - 110px)!important;
+ }
+}
+@media (min-width:900px) and (max-width:1199px) and (min-height:560px){
+ body.vli-pc-ui-v22.u20 #hud{max-width:calc(100vw - 300px)!important}
+ body.vli-pc-ui-v22.u20 #v21-dock{right:5px!important;left:auto!important;bottom:58px!important}
+ body.vli-pc-ui-v22.u20.u20win #panel{max-height:calc(100vh - 90px)!important}
+}
+@media (min-width:900px) and (max-height:719px){
+ body.vli-pc-ui-v22.u20 #v21-dock{bottom:64px!important}
+ body.vli-pc-ui-v22.u20.u20win #panel{max-height:calc(100vh - 90px)!important}
+}
+@media (max-width:899px),(max-height:559px){#v22-toggle{display:none!important}}
+@media (prefers-reduced-motion:reduce){body.vli-pc-ui-v22 *{transition-duration:0ms!important}}

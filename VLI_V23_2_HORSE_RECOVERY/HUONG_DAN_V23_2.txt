@@ -1,0 +1,42 @@
+VLI V23.2 - KHAC PHUC MAT NGUA SAU BAN VA V23.1
+====================================================
+GAME URL CHINH XAC: http://127.0.0.1:8765/index.html
+
+TINH TRANG DUOC SUA:
+- V23.1 ep anh ngua K33 = -1 va co the gay xung dot bo anh cuoi cu.
+- Go bo doan script V23.1 da chen vao index.html, KHONG xoa file gameplay.
+- Chi chinh sua anh xa SPR cho K34-K75; giu bo anh xa JX goc cho K0-K33.
+- Dong bo lai row hien tai cho K34-K75 neu nhu nhan vat van dang cuoi.
+- Kiem tra duoc 1008 anh PNG ngua K34-K75 (24 anh x 42 loai).
+- BAN FULL ASSET: kem tat ca 1008 anh SPR ngua PC chuan, tu dong bo sung anh thieu/hong.
+- BAN NHE: khong co anh; neu game thieu anh PNG, phai dung BAN FULL ASSET.
+- KHONG sua localStorage, save, nhan vat, tui do, item, skill, Tong Kim, ban do.
+
+CACH CAI:
+1. Sao luu thu muc game va dung server dang chay.
+2. Giai nen goi vao thu muc rieng. KHONG chay truc tiep tu file ZIP.
+3. Chay CAI_FIX_NGUA_V23_2.cmd. Neu can, nhap duong dan thu muc game co index.html.
+4. Ban cai CHINH dung PowerShell san co cua Windows. Neu PowerShell bao loi, thu CAI_FIX_NGUA_V23_2_PYTHON.cmd voi Python 3.
+5. Mo lai server 8765, dung http://127.0.0.1:8765/index.html va nhan Ctrl+F5.
+6. Nhan F12 -> Console va nhap:
+   VLI_PC_HORSE_RECOVERY_232.status()
+   VLI_PC_HORSE_RECOVERY_232.verifyImages(34).then(console.log)
+7. Mo trang kiem tra PC: http://127.0.0.1:8765/KIEM_TRA_NGUA_PC_V23_2.html
+8. Doc VLI_V23_2_HORSE_REPORT.json trong thu muc game. asset_files_ok nen la 1008.
+
+VI SAO PHAI DUNG 127.0.0.1 CHINH XAC:
+'localhost:8765' va '127.0.0.1:8765' la hai origin khac nhau; du lieu
+luu trinh duyet va ty le hieu chinh ngua se khong tu dong chia se.
+Khong thay doi host neu muon giu nhan vat hien tai.
+
+KHOI PHUC:
+- Chay KHOI_PHUC_V23_2.cmd, chon dung thu muc game vua cai.
+- Ban sao index.html nam trong VLI_V23_2_HORSE_BACKUP.
+- Khong xoa backup truoc khi game chay on dinh.
+- KHONG tu dong khoi phuc ve V23.1 neu V23.1 van gay loi.
+
+GIOI HAN:
+- K33 Lam Lan Than Loc: thieu 24 SPR cuoi goc trong data da cung cap.
+  Khong che ra anh gia hoac the mot loai thu cuoi khac duoi ten K33.
+- Chua test tren may Windows va server cua nguoi dung; xac nhan tren may
+  bang Console, trang kiem tra va anh screenshot K34-K75 sau khi cai.

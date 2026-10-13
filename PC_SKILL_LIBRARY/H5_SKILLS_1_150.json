@@ -1,0 +1,2712 @@
+[
+  {
+    "id": 2,
+    "name": "Công kích vật lý",
+    "req": 0,
+    "faction": "远程物理攻击",
+    "icon": "img/s/2.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 3,
+    "name": "Thiếu Lâm Kiếm pháp",
+    "req": 10,
+    "faction": "少林剑法",
+    "icon": "img/s/3.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 4,
+    "name": "Thiếu Lâm Côn pháp",
+    "req": 10,
+    "faction": "shaolin",
+    "icon": "img/s/4.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 5,
+    "name": "Thiếu Lâm thương pháp (##)",
+    "req": 10,
+    "faction": "shaolin",
+    "icon": "img/s/5.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 6,
+    "name": "Thiếu Lâm Đao pháp",
+    "req": 10,
+    "faction": "shaolin",
+    "icon": "img/s/6.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 7,
+    "name": "Thiếu Lâm Chùy pháp (##)",
+    "req": 10,
+    "faction": "shaolin",
+    "icon": "img/s/3.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 8,
+    "name": "Thiếu Lâm Quyền Pháp",
+    "req": 10,
+    "faction": "shaolin",
+    "icon": "img/s/8.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 9,
+    "name": "Hỗn Nguyên Nhất Khí công",
+    "req": 10,
+    "faction": "shaolin",
+    "icon": "img/s/9.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 10,
+    "name": "Kim Cang Phục Ma",
+    "req": 10,
+    "faction": "shaolin",
+    "icon": "img/s/10.png",
+    "tier": null,
+    "style": 1,
+    "form": 8
+  },
+  {
+    "id": 11,
+    "name": "Hoành Tảo Lục Hợp",
+    "req": 50,
+    "faction": "shaolin",
+    "icon": "img/s/11.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 12,
+    "name": "Kim Cang Hộ Thể",
+    "req": 20,
+    "faction": "shaolin",
+    "icon": "img/s/12.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 13,
+    "name": "Lập Địa Thành Phật",
+    "req": 30,
+    "faction": "shaolin",
+    "icon": "img/s/13.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 14,
+    "name": "Hàng Long Bất Vũ",
+    "req": 10,
+    "faction": "shaolin",
+    "icon": "img/s/14.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 15,
+    "name": "Bất động Minh Vương",
+    "req": 20,
+    "faction": "shaolin",
+    "icon": "img/s/15.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 16,
+    "name": "La Hán Trận",
+    "req": 30,
+    "faction": "shaolin",
+    "icon": "img/s/16.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 17,
+    "name": "Long Trảo Hổ Trảo (##)",
+    "req": 40,
+    "faction": "shaolin",
+    "icon": "img/s/17.png",
+    "tier": null,
+    "style": 1,
+    "form": 8
+  },
+  {
+    "id": 18,
+    "name": "Huệ Nhãn chú",
+    "req": 40,
+    "faction": "shaolin",
+    "icon": "img/s/18.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 19,
+    "name": "Ma Ha Vô Lượng",
+    "req": 50,
+    "faction": "shaolin",
+    "icon": "img/s/19.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 20,
+    "name": "Sư Tử Hống",
+    "req": 40,
+    "faction": "shaolin",
+    "icon": "img/s/20.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 21,
+    "name": "Dịch Cân kinh",
+    "req": 60,
+    "faction": "shaolin",
+    "icon": "img/s/21.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 22,
+    "name": "Kim Ba",
+    "req": 0,
+    "faction": "skill",
+    "icon": "",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 23,
+    "name": "Thiên Vương  Thương pháp",
+    "req": 10,
+    "faction": "tianwang",
+    "icon": "img/s/23.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 24,
+    "name": "Thiên Vương  Đao pháp",
+    "req": 10,
+    "faction": "tianwang",
+    "icon": "img/s/24.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 25,
+    "name": "Thánh Vương Đao pháp (##)",
+    "req": 10,
+    "faction": "tianwang",
+    "icon": "img/s/25.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 26,
+    "name": "Thiên Vương  Chùy Pháp",
+    "req": 10,
+    "faction": "tianwang",
+    "icon": "img/s/26.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 28,
+    "name": "Thánh Vương Phủ pháp (##)",
+    "req": 10,
+    "faction": "tianwang",
+    "icon": "img/s/28.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 29,
+    "name": "Trảm Long quyết",
+    "req": 10,
+    "faction": "tianwang",
+    "icon": "img/s/29.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 30,
+    "name": "Hồi Phong Lạc Nhạn",
+    "req": 10,
+    "faction": "tianwang",
+    "icon": "img/s/30.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 31,
+    "name": "Hàng Vân Quyết",
+    "req": 30,
+    "faction": "tianwang",
+    "icon": "img/s/31.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 32,
+    "name": "Vô Tâm Trảm",
+    "req": 60,
+    "faction": "tianwang",
+    "icon": "img/s/32.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 33,
+    "name": "Tĩnh Tâm Quyết",
+    "req": 20,
+    "faction": "tianwang",
+    "icon": "img/s/33.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 34,
+    "name": "Kinh Lôi Trảm",
+    "req": 10,
+    "faction": "tianwang",
+    "icon": "img/s/34.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 35,
+    "name": "Dương Quan Tam Điệp",
+    "req": 30,
+    "faction": "tianwang",
+    "icon": "img/s/35.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 36,
+    "name": "Thiên Vương Chiến ý",
+    "req": 60,
+    "faction": "tianwang",
+    "icon": "img/s/36.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 37,
+    "name": "Bát Phong Trảm",
+    "req": 30,
+    "faction": "tianwang",
+    "icon": "img/s/37.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 38,
+    "name": "Bàn Cổ Cửu Thức (##)",
+    "req": 40,
+    "faction": "tianwang",
+    "icon": "img/s/38.png",
+    "tier": null,
+    "style": 1,
+    "form": 10
+  },
+  {
+    "id": 40,
+    "name": "Đoạn Hồn Thích",
+    "req": 40,
+    "faction": "tianwang",
+    "icon": "img/s/40.png",
+    "tier": null,
+    "style": 1,
+    "form": 11
+  },
+  {
+    "id": 41,
+    "name": "Huyết Chiến Bát Phương",
+    "req": 60,
+    "faction": "tianwang",
+    "icon": "img/s/41.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 42,
+    "name": "Kim Chung Tráo",
+    "req": 50,
+    "faction": "tianwang",
+    "icon": "img/s/42.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 43,
+    "name": "Đường Môn ám khí",
+    "req": 10,
+    "faction": "tangmen",
+    "icon": "img/s/43.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 45,
+    "name": "Phích Lịch đơn",
+    "req": 10,
+    "faction": "tangmen",
+    "icon": "img/s/45.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 46,
+    "name": "Đao Nhận cơ quan (##)",
+    "req": 10,
+    "faction": "tangmen",
+    "icon": "img/s/46.png",
+    "tier": null,
+    "style": 4,
+    "form": 7
+  },
+  {
+    "id": 47,
+    "name": "Đoạt Hồn Tiêu",
+    "req": 30,
+    "faction": "tangmen",
+    "icon": "img/s/47.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 48,
+    "name": "Tâm Nhãn",
+    "req": 60,
+    "faction": "tangmen",
+    "icon": "img/s/48.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 50,
+    "name": "Truy Tâm Tiễn",
+    "req": 30,
+    "faction": "tangmen",
+    "icon": "img/s/50.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 54,
+    "name": "Mạn Thiên Hoa Vũ",
+    "req": 30,
+    "faction": "tangmen",
+    "icon": "img/s/54.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 55,
+    "name": "Thối Độc Thuật",
+    "req": 40,
+    "faction": "tangmen",
+    "icon": "img/s/55.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 56,
+    "name": "Hàn Sương Cơ quan (##)",
+    "req": 40,
+    "faction": "tangmen",
+    "icon": "img/s/56.png",
+    "tier": null,
+    "style": 4,
+    "form": 6
+  },
+  {
+    "id": 57,
+    "name": "Băng Phách Hàn Quang",
+    "req": 50,
+    "faction": "tangmen",
+    "icon": "img/s/57.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 58,
+    "name": "Thiên La Địa Võng",
+    "req": 60,
+    "faction": "tangmen",
+    "icon": "img/s/58.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 59,
+    "name": "Cửu Cung Địa Sát (##)",
+    "req": 50,
+    "faction": "skill",
+    "icon": "img/s/59.png",
+    "tier": null,
+    "style": 4,
+    "form": 6
+  },
+  {
+    "id": 60,
+    "name": "Ngũ Độc Đao pháp",
+    "req": 10,
+    "faction": "wudu",
+    "icon": "img/s/60.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 61,
+    "name": "Ngũ Độc Bổng pháp (##)",
+    "req": 10,
+    "faction": "wudu",
+    "icon": "img/s/61.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 62,
+    "name": "Ngũ Độc Chưởng Pháp",
+    "req": 10,
+    "faction": "wudu",
+    "icon": "img/s/62.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 63,
+    "name": "Độc Sa chưởng",
+    "req": 10,
+    "faction": "wudu",
+    "icon": "img/s/63.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 64,
+    "name": "Băng Lam Huyền Tinh",
+    "req": 30,
+    "faction": "wudu",
+    "icon": "img/s/64.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 65,
+    "name": "Huyết Đao Độc Sát",
+    "req": 10,
+    "faction": "wudu",
+    "icon": "img/s/65.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 66,
+    "name": "Tạp Nan Dược Kinh",
+    "req": 20,
+    "faction": "wudu",
+    "icon": "img/s/66.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 67,
+    "name": "Cửu Thiên Cuồng Lôi",
+    "req": 10,
+    "faction": "wudu",
+    "icon": "img/s/67.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 68,
+    "name": "U Minh Khô Lâu",
+    "req": 30,
+    "faction": "wudu",
+    "icon": "img/s/68.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 69,
+    "name": "Vô Hình Độc",
+    "req": 30,
+    "faction": "wuxing-gu",
+    "icon": "img/s/69.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 70,
+    "name": "Xích Diệm Thực Thiên",
+    "req": 20,
+    "faction": "wudu",
+    "icon": "img/s/70.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 71,
+    "name": "Thiên Cương Địa Sát",
+    "req": 60,
+    "faction": "wudu",
+    "icon": "img/s/71.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 72,
+    "name": "Xuyên Tâm Độc Thích",
+    "req": 50,
+    "faction": "wudu",
+    "icon": "img/s/72.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 73,
+    "name": "Vạn Độc Thực Tâm",
+    "req": 40,
+    "faction": "wudu",
+    "icon": "img/s/73.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 74,
+    "name": "Chu Cáp Thanh Minh",
+    "req": 60,
+    "faction": "wudu",
+    "icon": "img/s/74.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 75,
+    "name": "Ngũ Độc Kỳ Kinh",
+    "req": 60,
+    "faction": "wudu",
+    "icon": "img/s/75.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 76,
+    "name": "Di Hoa Tiếp Ngọc",
+    "req": 50,
+    "faction": "wudu",
+    "icon": "img/s/76.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 77,
+    "name": "Nga Mi Kiếm pháp",
+    "req": 10,
+    "faction": "emei",
+    "icon": "img/s/77.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 79,
+    "name": "Nga Mi Chưởng pháp",
+    "req": 10,
+    "faction": "emei",
+    "icon": "img/s/79.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 80,
+    "name": "Phiêu Tuyết Xuyên Vân",
+    "req": 10,
+    "faction": "emei",
+    "icon": "img/s/80.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 81,
+    "name": "Thu Phong Diệp",
+    "req": 10,
+    "faction": "emei",
+    "icon": "img/s/81.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 82,
+    "name": "Tứ Tượng Đồng Quy",
+    "req": 30,
+    "faction": "emei",
+    "icon": "img/s/82.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 85,
+    "name": "Nhất Diệp Tri Thu",
+    "req": 10,
+    "faction": "emei",
+    "icon": "img/s/85.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 86,
+    "name": "Lưu Thủy",
+    "req": 40,
+    "faction": "emei",
+    "icon": "img/s/86.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 88,
+    "name": "Bất Diệt Bất Tuyệt",
+    "req": 60,
+    "faction": "emei",
+    "icon": "img/s/88.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 89,
+    "name": "Mộng Điệp",
+    "req": 30,
+    "faction": "emei",
+    "icon": "img/s/89.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 90,
+    "name": "Mê Tung ảo ảnh",
+    "req": 50,
+    "faction": "kunlun",
+    "icon": "img/s/90.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 91,
+    "name": "Phật Quang Phổ Chiếu",
+    "req": 60,
+    "faction": "emei",
+    "icon": "img/s/91.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 92,
+    "name": "Phật Tâm Từ Hữu",
+    "req": 50,
+    "faction": "emei",
+    "icon": "img/s/92.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 93,
+    "name": "Từ Hàng Phổ Độ",
+    "req": 20,
+    "faction": "emei",
+    "icon": "img/s/93.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 94,
+    "name": "Từ Hàng Phổ Độ11",
+    "req": 0,
+    "faction": "emei",
+    "icon": "img/s/93.png",
+    "tier": null,
+    "style": 0,
+    "form": 5
+  },
+  {
+    "id": 95,
+    "name": "Thúy Yên Đao pháp",
+    "req": 10,
+    "faction": "cuiyan",
+    "icon": "img/s/95.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 96,
+    "name": "Thúy Yên Kiếm pháp (##)",
+    "req": 10,
+    "faction": "cuiyan",
+    "icon": "img/s/3.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 97,
+    "name": "Thúy Yên Song đao",
+    "req": 10,
+    "faction": "cuiyan",
+    "icon": "img/s/97.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 99,
+    "name": "Phong Hoa Tuyết Nguyệt",
+    "req": 10,
+    "faction": "cuiyan",
+    "icon": "img/s/99.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 100,
+    "name": "Hộ Thể Hàn Băng",
+    "req": 40,
+    "faction": "cuiyan",
+    "icon": "img/s/100.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 101,
+    "name": "Trị liệu thuật",
+    "req": 10,
+    "faction": "cuiyan",
+    "icon": "img/s/101.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 102,
+    "name": "Phong Quyển Tàn Tuyết",
+    "req": 10,
+    "faction": "cuiyan",
+    "icon": "img/s/102.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 105,
+    "name": "Vũ Đả Lê Hoa",
+    "req": 30,
+    "faction": "cuiyan",
+    "icon": "img/s/105.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 106,
+    "name": "Băng Tung Vụ ảnh 111",
+    "req": 30,
+    "faction": "cuiyan",
+    "icon": "img/s/106.png",
+    "tier": null,
+    "style": 4,
+    "form": 1
+  },
+  {
+    "id": 108,
+    "name": "Mục Dã Lưu Tinh",
+    "req": 60,
+    "faction": "cuiyan",
+    "icon": "img/s/108.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 109,
+    "name": "Tuyết ảnh",
+    "req": 50,
+    "faction": "cuiyan",
+    "icon": "img/s/109.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 110,
+    "name": "Ngũ hành độn",
+    "req": 40,
+    "faction": "cuiyan",
+    "icon": "img/s/110.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 111,
+    "name": "Bích Hải Triều Sinh",
+    "req": 60,
+    "faction": "cuiyan",
+    "icon": "img/s/111.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 113,
+    "name": "Phù Vân Tán Tuyết",
+    "req": 30,
+    "faction": "cuiyan",
+    "icon": "img/s/113.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 114,
+    "name": "Băng Cốt Tuyết Tâm",
+    "req": 60,
+    "faction": "cuiyan",
+    "icon": "img/s/114.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 115,
+    "name": "Cái Bang Bổng pháp",
+    "req": 10,
+    "faction": "gaibang",
+    "icon": "img/s/115.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 116,
+    "name": "Cái Bang Chưởng Pháp",
+    "req": 10,
+    "faction": "gaibang",
+    "icon": "img/s/116.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 119,
+    "name": "Diên Môn Thác Bát",
+    "req": 10,
+    "faction": "gaibang",
+    "icon": "img/s/119.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 122,
+    "name": "Kiến Nhân Thần Thủ",
+    "req": 10,
+    "faction": "gaibang",
+    "icon": "img/s/122.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 124,
+    "name": "Đả Cẩu Bổng Pháp",
+    "req": 30,
+    "faction": "gaibang",
+    "icon": "img/s/124.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 125,
+    "name": "Bổng Đả ác Cẩu",
+    "req": 50,
+    "faction": "gaibang",
+    "icon": "img/s/125.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 127,
+    "name": "Hoạt Bất Lưu Thủ 11",
+    "req": 10,
+    "faction": "gaibang",
+    "icon": "img/s/127.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 128,
+    "name": "Kháng Long Hữu Hối",
+    "req": 50,
+    "faction": "gaibang",
+    "icon": "img/s/128.png",
+    "tier": null,
+    "style": 0,
+    "form": 2
+  },
+  {
+    "id": 129,
+    "name": "Hóa Hiểm Vi Di",
+    "req": 20,
+    "faction": "gaibang",
+    "icon": "img/s/129.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 130,
+    "name": "Túy Điệp Cuồng Vũ",
+    "req": 60,
+    "faction": "gaibang",
+    "icon": "img/s/130.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 131,
+    "name": "Thiên Nhẫn Đao pháp",
+    "req": 10,
+    "faction": "tianren",
+    "icon": "img/s/131.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 132,
+    "name": "Thiên Nhẫn Mâu pháp",
+    "req": 10,
+    "faction": "tianren",
+    "icon": "img/s/132.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 134,
+    "name": "Thiên Nhẫn  Chùy pháp",
+    "req": 10,
+    "faction": "tianren",
+    "icon": "img/s/28.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 135,
+    "name": "Tàn Dương Như Huyết",
+    "req": 10,
+    "faction": "tianren",
+    "icon": "img/s/135.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 136,
+    "name": "Hỏa Liên Phần Hoa",
+    "req": 10,
+    "faction": "tianren",
+    "icon": "img/s/136.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 137,
+    "name": "Ảo ảnh Phi Hồ",
+    "req": 20,
+    "faction": "tianren",
+    "icon": "img/s/137.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 138,
+    "name": "Thôi sơn Điền Hải",
+    "req": 30,
+    "faction": "tianren",
+    "icon": "img/s/138.png",
+    "tier": null,
+    "style": 0,
+    "form": 0
+  },
+  {
+    "id": 139,
+    "name": "Hỗn Thủy Mạc Ngư",
+    "req": 20,
+    "faction": "tianren",
+    "icon": "img/s/139.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 140,
+    "name": "Phi Hồng Vô Tích",
+    "req": 30,
+    "faction": "tianren",
+    "icon": "img/s/140.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 141,
+    "name": "Liệt Hỏa Tình Thiên",
+    "req": 30,
+    "faction": "tianren",
+    "icon": "img/s/141.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 142,
+    "name": "Thâu Thiên Hoán Nhật",
+    "req": 60,
+    "faction": "tianren",
+    "icon": "img/s/142.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 143,
+    "name": "Lịch Ma Đoạt Hồn",
+    "req": 50,
+    "faction": "tianren",
+    "icon": "img/s/143.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 145,
+    "name": "Đơn Chỉ Liệt Diệm",
+    "req": 10,
+    "faction": "tianren",
+    "icon": "img/s/145.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 146,
+    "name": "Ngũ hành trận",
+    "req": 40,
+    "faction": "tianren",
+    "icon": "img/s/146.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 147,
+    "name": "Huyền Minh Hấp Tinh",
+    "req": 40,
+    "faction": "tianren",
+    "icon": "img/s/147.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 148,
+    "name": "Ma Diệm Thất Sát",
+    "req": 60,
+    "faction": "tianren",
+    "icon": "img/s/148.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 149,
+    "name": "Thực Cốt Huyết Nhận",
+    "req": 50,
+    "faction": "tianren",
+    "icon": "img/s/149.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 150,
+    "name": "Thiên Ma Giải Thể",
+    "req": 60,
+    "faction": "tianren",
+    "icon": "img/s/150.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 151,
+    "name": "Võ Đang Kiếm pháp",
+    "req": 10,
+    "faction": "wudang",
+    "icon": "img/s/151.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 152,
+    "name": "Võ Đang Quyền Pháp",
+    "req": 10,
+    "faction": "wudang",
+    "icon": "img/s/152.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 153,
+    "name": "Nộ Lôi Chỉ",
+    "req": 10,
+    "faction": "wudang",
+    "icon": "img/s/153.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 155,
+    "name": "Thương Hải Minh Nguyệt",
+    "req": 10,
+    "faction": "wudang",
+    "icon": "img/s/155.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 157,
+    "name": "Tọa Vọng Vô Ngã",
+    "req": 50,
+    "faction": "wudang",
+    "icon": "img/s/157.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 158,
+    "name": "Kiếm Phi Kinh Thiên",
+    "req": 30,
+    "faction": "wudang",
+    "icon": "img/s/158.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 159,
+    "name": "Thất Tinh Trận",
+    "req": 20,
+    "faction": "wudang",
+    "icon": "img/s/159.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 160,
+    "name": "Thế Vân Tung",
+    "req": 40,
+    "faction": "wudang",
+    "icon": "img/s/160.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 161,
+    "name": "Lưỡng Nghi Tâm pháp",
+    "req": 40,
+    "faction": "wudang",
+    "icon": "img/s/161.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 163,
+    "name": "Nhân Kiếm Hợp Nhất (##)",
+    "req": 40,
+    "faction": "wudang",
+    "icon": "img/s/163.png",
+    "tier": null,
+    "style": 2,
+    "form": 6
+  },
+  {
+    "id": 164,
+    "name": "Bác Cấp Nhi Phục",
+    "req": 30,
+    "faction": "wudang",
+    "icon": "img/s/164.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 165,
+    "name": "Vô Ngã Vô Kiếm",
+    "req": 60,
+    "faction": "wudang",
+    "icon": "img/s/165.png",
+    "tier": null,
+    "style": 0,
+    "form": 2
+  },
+  {
+    "id": 166,
+    "name": "Thái Cực Thần Công",
+    "req": 60,
+    "faction": "wudang",
+    "icon": "img/s/166.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 167,
+    "name": "Côn Lôn Đao pháp",
+    "req": 10,
+    "faction": "kunlun",
+    "icon": "img/s/167.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 168,
+    "name": "Côn Lôn Kiếm pháp",
+    "req": 10,
+    "faction": "kunlun",
+    "icon": "img/s/168.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 169,
+    "name": "Hô Phong Pháp",
+    "req": 10,
+    "faction": "kunlun",
+    "icon": "img/s/169.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 171,
+    "name": "Thanh Phong phù",
+    "req": 10,
+    "faction": "kunlun",
+    "icon": "img/s/171.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 172,
+    "name": "Thiên Tế Tấn Lôi",
+    "req": 30,
+    "faction": "kunlun",
+    "icon": "img/s/172.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 173,
+    "name": "Thiên Thanh Địa Trọc",
+    "req": 30,
+    "faction": "kunlun",
+    "icon": "img/s/173.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 174,
+    "name": "Ki Bán phù",
+    "req": 20,
+    "faction": "kunlun",
+    "icon": "img/s/174.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 175,
+    "name": "Khi Hàn Ngạo Tuyết",
+    "req": 40,
+    "faction": "kunlun",
+    "icon": "img/s/175.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 176,
+    "name": "Cuồng Phong Sậu Điện",
+    "req": 50,
+    "faction": "kunlun",
+    "icon": "img/s/176.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 178,
+    "name": "Nhất Khí Tam Thanh",
+    "req": 30,
+    "faction": "kunlun",
+    "icon": "img/s/178.png",
+    "tier": null,
+    "style": 2,
+    "form": 6
+  },
+  {
+    "id": 179,
+    "name": "Cuồng Lôi Chấn Địa",
+    "req": 10,
+    "faction": "kunlun",
+    "icon": "img/s/179.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 181,
+    "name": "Khí Tâm phù",
+    "req": 40,
+    "faction": "kunlun",
+    "icon": "img/s/181.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 182,
+    "name": "Ngũ Lôi Chánh Pháp",
+    "req": 60,
+    "faction": "kunlun",
+    "icon": "img/s/182.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 186,
+    "name": "Hồng Ba",
+    "req": 30,
+    "faction": "行龙不雨",
+    "icon": "img/s/186.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 190,
+    "name": "Mục Dã Lưu Tinh",
+    "req": 40,
+    "faction": "cuiyan",
+    "icon": "img/s/186.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 191,
+    "name": "Quan Âm Tán Tuyết",
+    "req": 50,
+    "faction": "观音散雪",
+    "icon": "img/s/186.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 202,
+    "name": "La Hán Trận",
+    "req": 30,
+    "faction": "shaolin",
+    "icon": "img/s/16.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 203,
+    "name": "Vô Hình Độc",
+    "req": 30,
+    "faction": "wuxing-gu",
+    "icon": "img/s/69.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 204,
+    "name": "Thu Phong Diệp",
+    "req": 10,
+    "faction": "秋风叶",
+    "icon": "img/s/81.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 206,
+    "name": "Lưu Thủy",
+    "req": 30,
+    "faction": "emei",
+    "icon": "img/s/86.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 207,
+    "name": "Mộng Điệp",
+    "req": 40,
+    "faction": "emei",
+    "icon": "img/s/89.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 208,
+    "name": "Phật Tâm Từ Hữu",
+    "req": 50,
+    "faction": "emei",
+    "icon": "img/s/92.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 211,
+    "name": "Thất Tinh Trận",
+    "req": 0,
+    "faction": "wudang",
+    "icon": "img/s/159.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 215,
+    "name": "Nhân Kiếm Hợp Nhất",
+    "req": 50,
+    "faction": "wudang",
+    "icon": "img/s/163.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 216,
+    "name": "Kim Cang Phục Ma",
+    "req": 0,
+    "faction": "shaolin",
+    "icon": "img/s/10.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 218,
+    "name": "Long Trảo Hổ Trảo",
+    "req": 0,
+    "faction": "shaolin",
+    "icon": "img/s/17.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 219,
+    "name": "Hồi Phong Lạc Nhạn",
+    "req": 0,
+    "faction": "tianwang",
+    "icon": "img/s/219.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 220,
+    "name": "Vô Tâm Trảm",
+    "req": 0,
+    "faction": "tianwang",
+    "icon": "img/s/31.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 221,
+    "name": "Dương Quan Tam Điệp",
+    "req": 0,
+    "faction": "tianwang",
+    "icon": "img/s/221.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 222,
+    "name": "Bát Phong Trảm",
+    "req": 0,
+    "faction": "tianwang",
+    "icon": "img/s/37.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 223,
+    "name": "Bàn Cổ Cửu Thức",
+    "req": 0,
+    "faction": "盘古九式",
+    "icon": "img/s/38.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 224,
+    "name": "Đoạn Hồn Thích",
+    "req": 0,
+    "faction": "tianwang",
+    "icon": "img/s/40.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 225,
+    "name": "Huyết Chiến Bát Phương",
+    "req": 0,
+    "faction": "tianwang",
+    "icon": "img/s/225.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 226,
+    "name": "Ngũ hành trận",
+    "req": 0,
+    "faction": "tianren",
+    "icon": "img/s/226.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 249,
+    "name": "Tiểu Lý Phi Đao",
+    "req": 60,
+    "faction": "tangmen",
+    "icon": "img/s/249.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 252,
+    "name": "Phật Pháp Vô Biên",
+    "req": 60,
+    "faction": "emei",
+    "icon": "img/s/252.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 267,
+    "name": "Tam Hoàn Thao Nguyệt",
+    "req": 60,
+    "faction": "wudang",
+    "icon": "img/s/267.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 269,
+    "name": "Băng Tâm Trái ảnh",
+    "req": 20,
+    "faction": "cuiyan",
+    "icon": "img/s/269.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 271,
+    "name": "Long Trảo Hổ Trảo",
+    "req": 50,
+    "faction": "shaolin",
+    "icon": "img/s/17.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 272,
+    "name": "Long Trảo Hổ Trảo",
+    "req": 30,
+    "faction": "shaolin",
+    "icon": "img/s/17.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 273,
+    "name": "Như Lai Thiên Diệp",
+    "req": 60,
+    "faction": "shaolin",
+    "icon": "img/s/273.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 274,
+    "name": "Giáng Long Chưởng",
+    "req": 30,
+    "faction": "gaibang",
+    "icon": "img/s/274.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 275,
+    "name": "Sương Ngạo Côn Lôn",
+    "req": 60,
+    "faction": "kunlun",
+    "icon": "img/s/275.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 277,
+    "name": "Hoạt Bất Lưu Thủ",
+    "req": 40,
+    "faction": "gaibang",
+    "icon": "img/s/127.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 281,
+    "name": "Ba La Tâm Kinh",
+    "req": 30,
+    "faction": "emei",
+    "icon": "img/s/86.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 282,
+    "name": "Thanh Âm Phạn Xướng",
+    "req": 60,
+    "faction": "emei",
+    "icon": "img/s/282.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 302,
+    "name": "Bạo Vũ Lê Hoa",
+    "req": 80,
+    "faction": "tangmen",
+    "icon": "img/s/302.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 303,
+    "name": "Độc Thích Cốt",
+    "req": 20,
+    "faction": "tangmen",
+    "icon": "img/s/303.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 317,
+    "name": "Kim Phật Xuất Kích",
+    "req": 30,
+    "faction": "shaolin",
+    "icon": "img/s/17.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 318,
+    "name": "Đạt Ma Độ Giang",
+    "req": 80,
+    "faction": "shaolin",
+    "icon": "img/s/318.png",
+    "tier": null,
+    "style": 1,
+    "form": 1
+  },
+  {
+    "id": 319,
+    "name": "Hoành Tảo Thiên Quân",
+    "req": 80,
+    "faction": "shaolin",
+    "icon": "img/s/319.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 321,
+    "name": "Vô Tướng Trảm",
+    "req": 80,
+    "faction": "shaolin",
+    "icon": "img/s/321.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 322,
+    "name": "Phá Thiên Trảm",
+    "req": 80,
+    "faction": "tianwang",
+    "icon": "img/s/322.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 323,
+    "name": "Truy Tinh Trục Nguyệt",
+    "req": 80,
+    "faction": "tianwang",
+    "icon": "img/s/323.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 324,
+    "name": "Thừa Long Quyết",
+    "req": 60,
+    "faction": "tianwang",
+    "icon": "img/s/324.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 325,
+    "name": "Truy Phong Quyết",
+    "req": 80,
+    "faction": "tianwang",
+    "icon": "img/s/325.png",
+    "tier": null,
+    "style": 1,
+    "form": 12
+  },
+  {
+    "id": 326,
+    "name": "Phá Thiên Trảm",
+    "req": 0,
+    "faction": "tianwang",
+    "icon": "img/s/325.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 327,
+    "name": "Truy Tinh Trục Nguyệt",
+    "req": 0,
+    "faction": "tianwang",
+    "icon": "img/s/323.png",
+    "tier": null,
+    "style": 0,
+    "form": 2
+  },
+  {
+    "id": 328,
+    "name": "Tam Nga Tề Tuyết",
+    "req": 80,
+    "faction": "emei",
+    "icon": "img/s/328.png",
+    "tier": null,
+    "style": 0,
+    "form": 0
+  },
+  {
+    "id": 332,
+    "name": "Phổ Độ Chúng Sinh",
+    "req": 80,
+    "faction": "emei",
+    "icon": "img/s/332.png",
+    "tier": null,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 333,
+    "name": "Phổ Độ Chúng Sinh",
+    "req": 20,
+    "faction": "emei",
+    "icon": "img/s/332.png",
+    "tier": null,
+    "style": 0,
+    "form": 3
+  },
+  {
+    "id": 336,
+    "name": "Băng Tung Vô ảnh",
+    "req": 80,
+    "faction": "cuiyan",
+    "icon": "img/s/336.png",
+    "tier": null,
+    "style": 0,
+    "form": 2
+  },
+  {
+    "id": 337,
+    "name": "Băng Tâm Tiên Tử",
+    "req": 80,
+    "faction": "cuiyan",
+    "icon": "img/s/337.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 339,
+    "name": "Nhiếp Hồn Nguyệt ảnh",
+    "req": 80,
+    "faction": "tangmen",
+    "icon": "img/s/339.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 341,
+    "name": "Tán Hoa Tiêu",
+    "req": 60,
+    "faction": "tangmen",
+    "icon": "img/s/341.png",
+    "tier": null,
+    "style": 0,
+    "form": 2
+  },
+  {
+    "id": 342,
+    "name": "Cửu Cung Phi Tinh",
+    "req": 80,
+    "faction": "tangmen",
+    "icon": "img/s/342.png",
+    "tier": null,
+    "style": 0,
+    "form": 2
+  },
+  {
+    "id": 343,
+    "name": "Xuyên Tâm Thích",
+    "req": 30,
+    "faction": "tangmen",
+    "icon": "img/s/343.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 345,
+    "name": "Hàn Băng Thích",
+    "req": 40,
+    "faction": "tangmen",
+    "icon": "img/s/345.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 347,
+    "name": "Địa Diệm Hỏa",
+    "req": 10,
+    "faction": "tangmen",
+    "icon": "img/s/347.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 349,
+    "name": "Lôi Kích Thuật",
+    "req": 50,
+    "faction": "tangmen",
+    "icon": "img/s/349.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 351,
+    "name": "Loạn Hoàn Kích",
+    "req": 80,
+    "faction": "tangmen",
+    "icon": "img/s/351.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 353,
+    "name": "Âm Phong Thực Cốt",
+    "req": 80,
+    "faction": "wudu",
+    "icon": "img/s/353.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 355,
+    "name": "Huyền Âm Trảm",
+    "req": 80,
+    "faction": "wudu",
+    "icon": "img/s/355.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 356,
+    "name": "Xuyên Y Phá Giáp",
+    "req": 40,
+    "faction": "wudu",
+    "icon": "img/s/356.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 357,
+    "name": "Phi Long Tại Thiên",
+    "req": 80,
+    "faction": "gaibang",
+    "icon": "img/s/357.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 359,
+    "name": "Thiên Hạ Vô Cẩu",
+    "req": 80,
+    "faction": "gaibang",
+    "icon": "img/s/359.png",
+    "tier": null,
+    "style": 0,
+    "form": 0
+  },
+  {
+    "id": 360,
+    "name": "Tiêu Diêu Công",
+    "req": 60,
+    "faction": "gaibang",
+    "icon": "img/s/360.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 361,
+    "name": "Vân Long Kích",
+    "req": 80,
+    "faction": "tianren",
+    "icon": "img/s/361.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 362,
+    "name": "Thiên Ngoại Lưu Tinh",
+    "req": 80,
+    "faction": "tianren",
+    "icon": "img/s/362.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 364,
+    "name": "Bi Tô Thanh Phong",
+    "req": 40,
+    "faction": "tianren",
+    "icon": "img/s/364.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 365,
+    "name": "Thiên Địa Vô Cực",
+    "req": 80,
+    "faction": "wudang",
+    "icon": "img/s/365.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 368,
+    "name": "Nhân Kiếm Hợp Nhất",
+    "req": 80,
+    "faction": "wudang",
+    "icon": "img/s/163.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 372,
+    "name": "Ngạo Tuyết Tiêu Phong",
+    "req": 80,
+    "faction": "kunlun",
+    "icon": "img/s/372.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 375,
+    "name": "Lôi động Cửu Thiên",
+    "req": 80,
+    "faction": "kunlun",
+    "icon": "img/s/375.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 380,
+    "name": "Phong Sương Toái ảnh",
+    "req": 80,
+    "faction": "emei",
+    "icon": "img/s/380.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 384,
+    "name": "Bách Độc Xuyên Tâm",
+    "req": 30,
+    "faction": "wudu",
+    "icon": "img/s/76.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 385,
+    "name": "Thôi Song Vọng Nguyệt",
+    "req": 30,
+    "faction": "emei",
+    "icon": "img/s/81.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 390,
+    "name": "Đoạn Cân Hủ Cốt",
+    "req": 80,
+    "faction": "wudu",
+    "icon": "img/s/390.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 391,
+    "name": "Nhiếp Hồn Loạn Tâm",
+    "req": 80,
+    "faction": "tianren",
+    "icon": "img/s/391.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 392,
+    "name": "Thúc Phược Chú",
+    "req": 10,
+    "faction": "kunlun",
+    "icon": "img/s/392.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 393,
+    "name": "Bắc Minh Đáo Hải",
+    "req": 30,
+    "faction": "kunlun",
+    "icon": "img/s/393.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 394,
+    "name": "Túy Tiên Tá Cốt",
+    "req": 80,
+    "faction": "kunlun",
+    "icon": "img/s/394.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 404,
+    "name": "Kinh Lôi Trảm",
+    "req": 0,
+    "faction": "tianwang",
+    "icon": "img/s/221.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 405,
+    "name": "Trảm Long quyết",
+    "req": 0,
+    "faction": "tianwang",
+    "icon": "img/s/221.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 406,
+    "name": "Hàng Vân Quyết",
+    "req": 0,
+    "faction": "tianwang",
+    "icon": "img/s/221.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 407,
+    "name": "Thừa Long Quyết",
+    "req": 60,
+    "faction": "tianwang",
+    "icon": "img/s/322.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 408,
+    "name": "Truy Phong Quyết",
+    "req": 60,
+    "faction": "tianwang",
+    "icon": "img/s/324.png",
+    "tier": null,
+    "style": 0,
+    "form": 2
+  },
+  {
+    "id": 630,
+    "name": "Huyền Thiên Vô Cực",
+    "req": 1,
+    "faction": "kunlun",
+    "icon": "img/s/630.png",
+    "tier": null,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 708,
+    "name": "Đảo Hư Thiên",
+    "req": 120,
+    "faction": "tianwang",
+    "icon": "img/s/708.png",
+    "tier": 120,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 709,
+    "name": "Đại Thừa Như Lai Chú",
+    "req": 120,
+    "faction": "shaolin",
+    "icon": "img/s/709.png",
+    "tier": 120,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 710,
+    "name": "Mê Ảnh Tung",
+    "req": 120,
+    "faction": "tangmen",
+    "icon": "img/s/710.png",
+    "tier": 120,
+    "style": 1,
+    "form": 7
+  },
+  {
+    "id": 711,
+    "name": "Hấp Tinh Yểm",
+    "req": 120,
+    "faction": "wudu",
+    "icon": "img/s/711.png",
+    "tier": 120,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 712,
+    "name": "Bế Nguyệt Phất Trần",
+    "req": 120,
+    "faction": "emei",
+    "icon": "img/s/712.png",
+    "tier": 120,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 713,
+    "name": "Ngự Tuyết Ẩn",
+    "req": 120,
+    "faction": "cuiyan",
+    "icon": "img/s/713.png",
+    "tier": 120,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 714,
+    "name": "Hỗn Thiên Khí Công",
+    "req": 120,
+    "faction": "gaibang",
+    "icon": "img/s/714.png",
+    "tier": 120,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 715,
+    "name": "Ma Âm Phệ Phách",
+    "req": 120,
+    "faction": "tianren",
+    "icon": "img/s/715.png",
+    "tier": 120,
+    "style": 2,
+    "form": 7
+  },
+  {
+    "id": 716,
+    "name": "Xuất Ứ Bất Nhiễm",
+    "req": 120,
+    "faction": "wudang",
+    "icon": "img/s/716.png",
+    "tier": 120,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 717,
+    "name": "Lưỡng Nghi Chân Khí",
+    "req": 120,
+    "faction": "kunlun",
+    "icon": "img/s/717.png",
+    "tier": 120,
+    "style": 3,
+    "form": 7
+  },
+  {
+    "id": 751,
+    "name": "Đại Lực Kim Cang Chưởng",
+    "req": 150,
+    "faction": "shaolin",
+    "icon": "img/s/751.png",
+    "tier": null,
+    "style": 0,
+    "form": 10
+  },
+  {
+    "id": 752,
+    "name": "Vi Đà Hiến Xử",
+    "req": 150,
+    "faction": "shaolin",
+    "icon": "img/s/752.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 753,
+    "name": "Tam Giới Quy Thiền",
+    "req": 150,
+    "faction": "shaolin",
+    "icon": "img/s/753.png",
+    "tier": null,
+    "style": 0,
+    "form": 2
+  },
+  {
+    "id": 754,
+    "name": "Bá Vương Tạm Kim",
+    "req": 150,
+    "faction": "tianwang",
+    "icon": "img/s/754.png",
+    "tier": null,
+    "style": 0,
+    "form": 10
+  },
+  {
+    "id": 755,
+    "name": "Hào Hùng Trảm",
+    "req": 150,
+    "faction": "tianwang",
+    "icon": "img/s/755.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 756,
+    "name": "Tung Hoành Bát Hoang",
+    "req": 150,
+    "faction": "tianwang",
+    "icon": "img/s/756.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 757,
+    "name": "Vô Ảnh Xuyên",
+    "req": 150,
+    "faction": "tangmen",
+    "icon": "img/s/757.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 758,
+    "name": "Thiết Liên Tứ Sát",
+    "req": 150,
+    "faction": "tangmen",
+    "icon": "img/s/758.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 759,
+    "name": "Càn Khôn Nhất Trịch",
+    "req": 150,
+    "faction": "tangmen",
+    "icon": "img/s/759.png",
+    "tier": null,
+    "style": 0,
+    "form": 2
+  },
+  {
+    "id": 760,
+    "name": "Tích Lịch Loạn Hoán Kích",
+    "req": 150,
+    "faction": "tangmen",
+    "icon": "img/s/760.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 761,
+    "name": "Hình Tiêu Cốt Lập",
+    "req": 150,
+    "faction": "wudu",
+    "icon": "img/s/761.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 762,
+    "name": "U Hồn Phệ Ảnh",
+    "req": 150,
+    "faction": "wudu",
+    "icon": "img/s/762.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 763,
+    "name": "Kiếm Hoa Vãn Tinh",
+    "req": 150,
+    "faction": "emei",
+    "icon": "img/s/763.png",
+    "tier": null,
+    "style": 0,
+    "form": 0
+  },
+  {
+    "id": 764,
+    "name": "Băng Vũ Lạc Tinh",
+    "req": 150,
+    "faction": "emei",
+    "icon": "img/s/764.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 765,
+    "name": "Thọ Dữ Thiên Tề",
+    "req": 150,
+    "faction": "emei",
+    "icon": "img/s/765.png",
+    "tier": null,
+    "style": 0,
+    "form": 7
+  },
+  {
+    "id": 766,
+    "name": "Băng Tước Hoạt Kỳ",
+    "req": 150,
+    "faction": "cuiyan",
+    "icon": "img/s/766.png",
+    "tier": null,
+    "style": 0,
+    "form": 2
+  },
+  {
+    "id": 767,
+    "name": "Thủy Anh Man Tú",
+    "req": 150,
+    "faction": "cuiyan",
+    "icon": "img/s/767.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 768,
+    "name": "Thời Thặng Lục Long",
+    "req": 150,
+    "faction": "gaibang",
+    "icon": "img/s/768.png",
+    "tier": null,
+    "style": 0,
+    "form": 0
+  },
+  {
+    "id": 769,
+    "name": "Bổng Huýnh Lược Địa",
+    "req": 150,
+    "faction": "gaibang",
+    "icon": "img/s/769.png",
+    "tier": null,
+    "style": 0,
+    "form": 0
+  },
+  {
+    "id": 770,
+    "name": "Giang Hải Nộ Lan",
+    "req": 150,
+    "faction": "tianren",
+    "icon": "img/s/770.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 771,
+    "name": "Tật Hỏa Liệu Nguyên",
+    "req": 150,
+    "faction": "tianren",
+    "icon": "img/s/771.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 772,
+    "name": "Tạo Hóa Thái Thanh",
+    "req": 150,
+    "faction": "wudang",
+    "icon": "img/s/772.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  },
+  {
+    "id": 773,
+    "name": "Kiếm Thùy Tinh Hà",
+    "req": 150,
+    "faction": "wudang",
+    "icon": "img/s/773.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 774,
+    "name": "Cửu Thiên Cương Phong",
+    "req": 150,
+    "faction": "kunlun",
+    "icon": "img/s/774.png",
+    "tier": null,
+    "style": 0,
+    "form": 1
+  },
+  {
+    "id": 775,
+    "name": "Thiên Lôi Chấn Nhạc",
+    "req": 150,
+    "faction": "kunlun",
+    "icon": "img/s/775.png",
+    "tier": null,
+    "style": 0,
+    "form": 6
+  }
+]

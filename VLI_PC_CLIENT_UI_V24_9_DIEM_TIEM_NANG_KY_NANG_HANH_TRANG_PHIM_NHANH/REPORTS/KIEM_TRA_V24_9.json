@@ -1,0 +1,13 @@
+{
+  "version": "24.9.0",
+  "nodeSyntax": true,
+  "chromiumMock": true,
+  "plusButtons": 4,
+  "unifiedSkillContainer": true,
+  "inventoryGridCells": 60,
+  "quickItemSlots": 3,
+  "quickSkillSlots": 2,
+  "mockJSExceptions": 0,
+  "installedWindowsTested": false,
+  "PCPixelIdentical": false
+}

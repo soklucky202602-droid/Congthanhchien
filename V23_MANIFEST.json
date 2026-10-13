@@ -1,0 +1,105 @@
+{
+  "version": "23.0",
+  "target": "PC Client UI Full Replacement",
+  "deliveryStatus": "playable-integrated-package; visual-replacement-incomplete",
+  "pixelPerfectVerified": false,
+  "sourceArchive": "Vo_Lam_Idle_Offline_V6_120_150_TrangBi130_TongKim.zip",
+  "changedOriginalFiles": [
+    "index.html",
+    "js/ui20.js"
+  ],
+  "unchangedOriginalFiles": 12036,
+  "manifestAssetsPresent": 11439,
+  "runtimeChecksPassed": 45,
+  "runtimeChecksTotal": 45,
+  "testCharacter": "isolated Shaolin level 150 fixture",
+  "testedViewports": [
+    "800x600",
+    "1024x768",
+    "1366x768",
+    "1920x1080",
+    "390x844 mobile fallback"
+  ],
+  "pakIndexEntries": {
+    "Ui.pak": 135,
+    "spr.pak": 14569,
+    "resource.pak": 2810,
+    "maps.pak": 64447,
+    "skills.pak": 257,
+    "font.pak": 6
+  },
+  "relatedPakUsage": "Only Ui.pak and spr.pak assets are used by new UI. Other PAK indexes were inspected, not integrated. ASF font is not a browser font. Gameplay assets from V6 are retained.",
+  "assets": [
+    {
+      "file": "ui/pc-v23/inventory.webp",
+      "source": "Ui.pak",
+      "hash": "16A62A59",
+      "derivation": "original frame 0",
+      "sha256": "060e6c9ab0e8860a249f3f24204079eb51a87237ffc798cf807fdd85545f85b9"
+    },
+    {
+      "file": "ui/pc-v23/health.webp",
+      "source": "Ui.pak",
+      "hash": "B467B463",
+      "derivation": "original frame 0",
+      "sha256": "af52ea258f8c4cd6db749c5e334b4bde8638607aed65b96d4efd48ff530afa69"
+    },
+    {
+      "file": "ui/pc-v23/mana.webp",
+      "source": "Ui.pak",
+      "hash": "F09E4A27",
+      "derivation": "original frame 0",
+      "sha256": "d9b2dd9269b6033132ace4bf55933b7afb97ba56370efb97663bd33d66efe7fa"
+    },
+    {
+      "file": "ui/pc-v23/close.webp",
+      "source": "Ui.pak",
+      "hash": "C6795D48",
+      "derivation": "original frame 0",
+      "sha256": "bba307c74054f77f4926f9d13967c0283ba80be08a49ac71ec6cbb6bf3bbc2b4"
+    },
+    {
+      "file": "ui/pc-v23/character.webp",
+      "source": "spr.pak",
+      "hash": "FA975776",
+      "derivation": "original frame 0",
+      "sha256": "06781e05ec637e5b4e28fc98fd71c0189e6e85cc95913324a3a38abcb2995470"
+    },
+    {
+      "file": "ui/pc-v23/skills.webp",
+      "source": "spr.pak",
+      "hash": "CFE5AD03",
+      "derivation": "original frame 0",
+      "sha256": "af15a5269309c24ffc01ac93bc01e44cb6758220774d4397426c5a0109d2c72d"
+    },
+    {
+      "file": "ui/pc-v23/hud.webp",
+      "source": "spr.pak",
+      "hash": "6DAE6D7D",
+      "derivation": "original 800x600 frame 0, only lower HUD visible",
+      "sha256": "54dc995ef32001845a362f759cc78e16416aa514e70f3b4bb5a15904bc02e584"
+    },
+    {
+      "file": "ui/pc-v23/button-texture.webp",
+      "source": "spr.pak",
+      "hash": "FA975776",
+      "derivation": "crop (8,27,57,49)",
+      "sha256": "15460a9eed44258a88c368ad855fcf7c2e79a4d7df4521a5cf0da0f7e7af93cb"
+    },
+    {
+      "file": "ui/pc-v23/pc-frame-nine-slice.webp",
+      "source": "spr.pak",
+      "hash": "312B30C9",
+      "derivation": "recomposed border carried from V22",
+      "sha256": "955fa508221dc1d64acd58e2ff378bbef948a84d3c2b28936bc3e9974e160699"
+    }
+  ],
+  "remaining": [
+    "Forge/quest/system/shop/AdminCP/TongKim content retains H5 layout inside native border",
+    "Character stats/equipment coordinates differ from PC client; residual baked Chinese labels",
+    "HUD anchors, hotkey arrangement, minimap and chat differ from full PC client",
+    "No PC UI INI coordinate comparison or pixel comparison to target Vietnamese client",
+    "Mobile portrait and small screens retain original H5 interface",
+    "Party disabled in source V6"
+  ]
+}

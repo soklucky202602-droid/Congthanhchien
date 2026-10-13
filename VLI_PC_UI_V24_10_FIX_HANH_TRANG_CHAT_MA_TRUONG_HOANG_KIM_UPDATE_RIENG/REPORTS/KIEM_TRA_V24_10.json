@@ -1,0 +1,9 @@
+{
+  "version": "24.10.0",
+  "syntax_check": "node --check PASS",
+  "vm_smoke": "PASS: stable, effect repair, filter API",
+  "browser": "Not tested: navigation to local test fixture blocked by administrator",
+  "windows_installer": "Not executed on user Windows",
+  "gameplay_modified": false,
+  "save_files_modified_by_installer": false
+}

@@ -1,0 +1,15 @@
+{
+  "version": "24.8.0",
+  "purpose": "PC Client UI for H5: KTC, chat, emotes, character, skills and social window skin",
+  "source": "User-supplied PC Client reference screenshots and preinstalled V24.3 UI assets",
+  "shop_columns": 3,
+  "shop_rows": 5,
+  "shop_slots_per_page": 15,
+  "chat_emotes": 72,
+  "supported_previous_ui": ["V24.2", "V24.3"],
+  "source_game_scripts_modified": false,
+  "save_modified": false,
+  "browser_mock_qa": "pass",
+  "real_game_browser_qa": "blocked_by_administrator",
+  "windows_powershell_installer_qa": "not_run_on_windows"
+}

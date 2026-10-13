@@ -1,0 +1,25 @@
+{
+  "version": "23.2.0",
+  "root": "C:\\Users\\admin\\Downloads\\Vo_Lam_Idle_Offline_V6_120_150_TrangBi130_TongKim",
+  "installed_at": "2026-10-13T06:32:44.220574",
+  "source_index_sha256": "9050b5094b2928e375d3a0ddffd3fbf8fc97c0bf7cffbcf0face70349360a78e",
+  "removed_v23_1_strict_mapper": true,
+  "legacy_mapper_k0_k33_preserved": true,
+  "expanded_exact_row_mapping_enabled": true,
+  "gameplay_changed": false,
+  "saves_changed": false,
+  "game_address": "http://127.0.0.1:8765/index.html",
+  "asset_package_included": true,
+  "asset_files_expected": 1008,
+  "asset_files_ok": 1008,
+  "missing_count": 0,
+  "changed_count": 0,
+  "sprites_added": 0,
+  "sprites_replaced": 0,
+  "asset_files_missing": [],
+  "asset_files_incorrect": [],
+  "missing_original_pc_animations": [
+    "K33"
+  ],
+  "note": "K33 original mounted sprite set not provided; no incorrect substitution performed."
+}

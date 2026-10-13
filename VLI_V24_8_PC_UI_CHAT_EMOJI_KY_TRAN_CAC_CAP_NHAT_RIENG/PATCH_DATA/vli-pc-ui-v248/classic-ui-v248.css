@@ -1,0 +1,148 @@
+/* VLI PC Client UI V24.8 — PC Kỳ Trân Các, chat entry and 9x8 emotes, visual-only improvements. */
+#vli-pc-v24 .pc248-ktc{
+  position:absolute;z-index:70;width:575px;height:508px;max-width:calc(100vw - 8px);max-height:calc(100dvh - 20px);
+  box-sizing:border-box;color:#f0dfb0;pointer-events:auto;overflow:hidden;user-select:none;
+  border:10px solid transparent;border-image:url('../vli-pc-v24/assets/pc-v22/pc-frame-nine-slice.webp') 24 fill/10px stretch;
+  background:#0b180fcf;box-shadow:0 8px 30px #000e,inset 0 0 20px #0007;
+  font:12px 'Times New Roman',Tahoma,serif;text-shadow:0 1px 2px #000;
+}
+#vli-pc-v24 .pc248-ktc[hidden],#vli-pc-v24 .pc248-emote-popup[hidden]{display:none!important}
+#vli-pc-v24 .pc248-ktc *{box-sizing:border-box}
+#vli-pc-v24 .pc248-ktc button{font:12px 'Times New Roman',Tahoma,serif;cursor:pointer;color:#e6dcbe}
+#vli-pc-v24 .pc248-shop-head{position:absolute;inset:3px 5px auto;cursor:move;touch-action:none;height:32px;
+  border-bottom:3px solid transparent;border-image:url('../vli-pc-v24/assets/pc-v22/pc-header-ornament.webp') 18 fill/3px stretch;background:linear-gradient(#6a705eae,#484b41aa)}
+#vli-pc-v24 .pc248-shop-head h2{margin:0;padding:3px 28px 0;text-align:center;color:#e6d6a5;font:700 18px/24px 'Times New Roman',Tahoma,serif;letter-spacing:.5px}
+#vli-pc-v24 .pc248-shop-head .pc248-close{position:absolute;top:1px;right:0;width:23px;height:25px;border:0;background:transparent url('../vli-pc-v24/assets/pc-v22/pc-original-ui-close.webp') center/22px 22px no-repeat;color:transparent;font-size:0}
+#vli-pc-v24 .pc248-shop-tabs{position:absolute;left:7px;right:7px;top:35px;display:flex;gap:3px;height:23px}
+#vli-pc-v24 .pc248-shop-tab{flex:1;height:22px;max-width:105px;padding:0 3px;border:1px solid #786f55;
+  background:#22291d url('../vli-pc-v24/assets/pc-v22/pc-native-dock-button.webp') center/100% 100%;font-weight:bold;color:#f1dfa9}
+#vli-pc-v24 .pc248-shop-tab.active{color:#fff2b7;border-color:#e1c681;box-shadow:inset 0 0 5px #e8cf5961}
+#vli-pc-v24 .pc248-shop-pagebar{position:absolute;left:9px;right:9px;top:61px;height:22px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+#vli-pc-v24 .pc248-shop-pagebar button{width:60px;height:20px;padding:0;background:#061c17;border:2px ridge #7a896f;color:#e5d9b4}
+#vli-pc-v24 .pc248-shop-pagebar button:disabled{opacity:.34;cursor:default}
+#vli-pc-v24 .pc248-shop-bank{color:#83d0a6;font:10px Tahoma,sans-serif;text-align:center}
+#vli-pc-v24 .pc248-shop-cards{position:absolute;left:11px;right:11px;top:85px;bottom:30px;
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(5,minmax(0,1fr));gap:3px;overflow:hidden;}
+#vli-pc-v24 .pc248-shop-card{position:relative;min-width:0;min-height:0;border:1px solid #7e7966;
+  background:#121c19d9 url('assets/pc-shop-empty-cell.png') center/100% 100% no-repeat;overflow:hidden;}
+#vli-pc-v24 .pc248-shop-card.empty{opacity:.73}
+#vli-pc-v24 .pc248-shop-icon{position:absolute;left:6px;top:25px;width:27px;height:27px;object-fit:contain;image-rendering:pixelated;background:#020804;border:1px solid #384d36}
+#vli-pc-v24 .pc248-shop-name{position:absolute;top:5px;left:5px;right:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;color:#f6dfa0;font:bold 11px/14px 'Times New Roman',Tahoma,serif}
+#vli-pc-v24 .pc248-price-label{position:absolute;left:37px;top:22px;white-space:nowrap;color:#f0e4be;font:11px/12px 'Times New Roman',Tahoma,serif}
+#vli-pc-v24 .pc248-price-label.pc248-price-actual{top:36px}
+#vli-pc-v24 .pc248-shop-price{position:absolute;left:78px;right:2px;top:22px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#46ee8e;font:10px/12px Tahoma,sans-serif}
+#vli-pc-v24 .pc248-shop-price.pc248-shop-price-actual{top:36px}
+#vli-pc-v24 .pc248-buy{position:absolute;right:6px;bottom:4px;width:56px;height:19px;line-height:15px;text-align:center;padding:0;
+  color:#fff1cd;border:2px ridge #667c73;background:#001b17;box-shadow:inset 0 0 2px #90e0ac44;}
+#vli-pc-v24 .pc248-buy:disabled{opacity:.4;cursor:not-allowed}
+#vli-pc-v24 .pc248-buy:hover:not(:disabled){filter:brightness(1.45);border-color:#c6d6c0}
+#vli-pc-v24 .pc248-shop-bottom{position:absolute;bottom:1px;left:5px;right:5px;height:26px;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(90deg,#6f6b59,#a7a78f,#625a4c);border-top:2px solid #282c23}
+#vli-pc-v24 .pc248-bottom-close{border:0;background:transparent;color:#0d130d!important;font:bold 15px Tahoma,sans-serif!important;text-shadow:0 1px #c5c3aa;min-width:85px;height:24px}
+#vli-pc-v24 .pc248-bottom-close:hover{color:#eae0be!important;text-shadow:0 1px 3px #000}
+#vli-pc-v24 .pc248-shop-hint{position:absolute;left:6px;top:6px;font:8px Tahoma,sans-serif;color:#202820;text-shadow:none;max-width:185px;overflow:hidden;white-space:nowrap}
+/* Chat panel: from the user's real PC chat bar, with sample typed characters removed. */
+#vli-pc-v24 .chat.pc248-chat{left:8px!important;right:auto!important;bottom:9px!important;width:327px!important;height:163px!important;
+  z-index:16!important;overflow:visible;background:transparent;filter:drop-shadow(0 1px 2px #000b)}
+#vli-pc-v24 .pc248-chat .chat-rows{background:linear-gradient(90deg,#020804c2,#040b05a8 82%,transparent);padding:3px 4px 1px;min-height:40px;font:11px/1.45 Tahoma,Arial,sans-serif}
+#vli-pc-v24 .pc248-chat .chat-channels{height:18px;min-height:18px;background:#080e09a1;border:0}
+#vli-pc-v24 .pc248-chat .chat-channel{font:10px Tahoma,Arial,sans-serif;padding:1px 4px;white-space:nowrap}
+#vli-pc-v24 .pc248-chat .chat-channel.active{color:#36e9ed;background:transparent;border-bottom:1px solid #20c1c3}
+#vli-pc-v24 .pc248-chat .chat-entry{flex:none;position:relative;height:26px;min-height:26px;border:0;
+  background:transparent url('assets/pc-chat-entry-strip.png') top left/327px 26px no-repeat;display:block;padding:0}
+#vli-pc-v24 .pc248-chat .chat-entry input{position:absolute;left:40px;top:7px;width:233px;height:16px;padding:1px 0;
+  border:0;outline:0;background:transparent!important;color:#eee4ab;font:11px/13px Tahoma,sans-serif}
+#vli-pc-v24 .pc248-chat .chat-entry input::placeholder{color:#9eaa8b}
+#vli-pc-v24 .pc248-chat .chat-entry button{position:absolute;top:6px;display:block;height:19px;padding:0;background:transparent;border:0;color:transparent;
+  font-size:0;box-shadow:none}
+#vli-pc-v24 .pc248-chat .chat-entry .pc248-emote-toggle{left:274px;width:23px}
+#vli-pc-v24 .pc248-chat .chat-entry button[type='submit']{left:296px;width:27px}
+#vli-pc-v24 .pc248-chat .chat-entry button:hover{background:#95cba844}
+#vli-pc-v24 .pc248-chat .v242-chat-status{height:11px;font-size:8px;background:transparent}
+#vli-pc-v24 .pc248-emote-popup{position:absolute;z-index:82;width:246px;height:212px;
+  background:#030603 url('assets/pc-emoticons-reference.png') center/246px 212px no-repeat;
+  pointer-events:auto;border:1px solid #73765e;box-shadow:0 4px 18px #000d}
+#vli-pc-v24 .pc248-emote-hitgrid{position:absolute;inset:0;display:grid;grid-template-columns:repeat(9,1fr);grid-template-rows:repeat(8,1fr)}
+#vli-pc-v24 .pc248-emote-hit{min-width:0;min-height:0;padding:0;border:1px solid transparent;background:transparent;color:transparent;font-size:0}
+#vli-pc-v24 .pc248-emote-hit:hover{background:#ffe26c44;border:1px solid #ffeb6f}
+#vli-pc-v24 .pc248-emote-inline{display:inline-block;width:25px;height:25px;vertical-align:middle;flex:none;
+  background:url('assets/pc-emotes-9x8.png') no-repeat 0 0/225px 200px}
+/* Native character page: cover obsolete baked text with real H5 stats, keep PC equipment layout. */
+#vli-pc-v24 .pc-window[data-panel='character'] .pc248-char-stats{position:absolute;z-index:9;top:51px;left:7px;width:201px;height:309px;
+  padding:7px 5px;background:linear-gradient(#0d1611ed,#070e0ae8);border:1px solid #77785b;color:#e8d4a7;pointer-events:none}
+#vli-pc-v24 .pc248-char-stats h3{text-align:center;margin:0 0 9px;color:#f8db93;font:bold 12px Tahoma,sans-serif}
+#vli-pc-v24 .pc248-char-row{display:flex;align-items:center;justify-content:space-between;gap:3px;margin:3px 0 0;
+  border-bottom:1px solid #47513b70;font:11px Tahoma,sans-serif;white-space:nowrap}
+#vli-pc-v24 .pc248-char-row strong{color:#73ed82;font:bold 11px Tahoma,sans-serif;overflow:hidden;max-width:115px;text-overflow:ellipsis}
+/* Martial skill list as 5 columns, as seen in PC Client, not an H5 text-only list. */
+#vli-pc-v24 .pc-window.pc248-skills .v242-skills-list{left:8px!important;top:72px!important;width:190px!important;height:252px!important;
+  display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;grid-auto-rows:37px!important;align-content:start;gap:1px!important;
+  padding:0!important;background:#080d0bc7;overflow-y:auto}
+#vli-pc-v24 .pc248-skills .v242-skill-item{width:36px!important;height:37px!important;min-height:37px!important;
+  padding:0!important;display:flex!important;justify-content:center;align-items:center;position:relative;}
+#vli-pc-v24 .pc248-skills .v242-skill-item[hidden]{display:none!important}
+#vli-pc-v24 .pc248-skills .v242-skill-item img{width:31px!important;height:31px!important;object-fit:contain}
+#vli-pc-v24 .pc248-skills .v242-skill-item span{display:none}
+#vli-pc-v24 .pc248-skills .v242-skill-item small{position:absolute;bottom:0;right:1px;font:bold 9px Tahoma,sans-serif;
+  background:#06120bc9;color:#5af5fb}
+#vli-pc-v24 .pc248-skills-tabs{position:absolute;z-index:11;left:7px;top:43px;right:8px;height:23px;display:flex;gap:3px}
+#vli-pc-v24 .pc248-skills-tabs button{flex:1;font:10px Tahoma,sans-serif;border:1px solid #717356;background:#15201a;color:#e6cf9d}
+#vli-pc-v24 .pc248-skills-tabs button.active{color:#e2edb3;border-color:#d4bb70;background:#354632}
+#vli-pc-v24 .pc-window.pc248-skills .v242-skills-close{top:343px!important}
+/* Reduce the duplicated, text-heavy right-hand shortcut rows. Tooltip names are retained. */
+#vli-pc-v24 .quick-dock.pc248-dock{right:7px!important;bottom:46px!important;width:min(640px,calc(100vw - 16px))!important;
+  max-width:640px;display:flex!important;flex-flow:row nowrap!important;gap:1px!important;justify-content:flex-end!important;
+  overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;max-height:35px;padding:1px;background:#030804b4;border-top:2px solid #7e704f}
+#vli-pc-v24 .quick-dock.pc248-dock button{position:relative;flex:0 0 29px!important;width:29px!important;min-width:29px!important;
+  max-width:29px!important;height:29px!important;padding:0!important;font-size:0!important;overflow:hidden}
+#vli-pc-v24 .quick-dock.pc248-dock button::before{content:attr(data-pc248-symbol);font:17px/27px 'Segoe UI Symbol',Tahoma,serif;
+  color:#d5cb97;display:block;text-align:center;text-shadow:0 1px 2px #000}
+#vli-pc-v24 .pc-window[data-panel='guild'].generic,
+#vli-pc-v24 .pc-window[data-panel='friends'].generic,
+#vli-pc-v24 .pc-window[data-panel='shop'].generic{background:linear-gradient(45deg,#17271aef,#111912f0);
+  border-image:url('../vli-pc-v24/assets/pc-v22/pc-frame-nine-slice.webp') 24 fill/15px stretch}
+#vli-pc-v24 .pc-window.pc248-window .pc-not-ready{font-size:11px;border:1px solid #8a754b;color:#ead4aa}
+@media(max-width:1250px){
+  #vli-pc-v24 .chat.pc248-chat{bottom:87px!important;height:142px!important}
+  #vli-pc-v24 .quick-dock.pc248-dock{bottom:42px!important}
+}
+@media(max-width:620px){
+  #vli-pc-v24 .pc248-shop-card{font-size:9px}
+  #vli-pc-v24 .pc248-shop-pagebar .pc248-shop-bank{font-size:8px}
+  #vli-pc-v24 .pc248-shop-name{font-size:9px}
+  #vli-pc-v24 .pc248-shop-icon{width:21px;height:21px;left:2px}
+  #vli-pc-v24 .pc248-price-label{font-size:9px;left:26px}
+  #vli-pc-v24 .pc248-shop-price{font-size:8px;left:65px}
+  #vli-pc-v24 .pc248-shop-buy{width:42px}
+  #vli-pc-v24 .chat.pc248-chat{left:3px!important;transform:scale(.85);transform-origin:bottom left}
+}
+/* Additional PC-contact/social windows copied as layout, not fake social gameplay. */
+#vli-pc-v24 .pc-window.pc248-window[data-panel='friends']{width:158px!important;height:425px!important}
+#vli-pc-v24 .pc-window.pc248-window[data-panel='team']{width:346px!important;height:248px!important}
+#vli-pc-v24 .pc-window.pc248-window[data-panel='guild']{width:432px!important;height:482px!important}
+#vli-pc-v24 .pc-window.pc248-window[data-panel='team'] .v242-team-status,
+#vli-pc-v24 .pc-window.pc248-window[data-panel='guild'] .generic-body,
+#vli-pc-v24 .pc-window.pc248-window[data-panel='friends'] .generic-body{display:none!important}
+#vli-pc-v24 .pc-window .pc248-social-view{position:absolute;z-index:6;inset:4px 5px 7px 5px;
+  display:flex;flex-direction:column;gap:5px;padding:3px;background:#07130edc;border:1px solid #7e785b;
+  color:#dfd1a8;font:11px Tahoma,Arial,sans-serif;pointer-events:auto}
+#vli-pc-v24 .pc248-social-view h3{font:700 14px 'Times New Roman',Tahoma,serif;color:#ecd9a3;text-align:center;
+  letter-spacing:.4px;margin:0;padding:5px 0 6px;background:linear-gradient(#62695b,#393d34);border-bottom:2px ridge #aca88c}
+#vli-pc-v24 .pc248-social-tabs{display:flex;gap:2px;flex-wrap:wrap}
+#vli-pc-v24 .pc248-social-tabs button{flex:1;min-width:41px;padding:4px 1px;border:1px solid #656443;
+  background:#10201a;color:#d3cb99;font:10px Tahoma,Arial,sans-serif}
+#vli-pc-v24 .pc248-social-tabs button.active{background:#324b31;color:#f4da8a;border-color:#c3ab70}
+#vli-pc-v24 .pc248-social-empty,#vli-pc-v24 .pc248-guild-body{flex:1;min-height:90px;overflow:auto;padding:10px 5px;
+  border:1px solid #53634b;background:#040b08b9;color:#b8b8a2;line-height:1.6}
+#vli-pc-v24 .pc248-social-search{height:25px;border:1px solid #667253;background:#06120a;color:#eadba9;width:100%;font:10px Tahoma;padding:3px}
+#vli-pc-v24 .pc248-social-view button.pc248-social-action,
+#vli-pc-v24 .pc248-social-view button.pc248-social-close{border:2px ridge #688172;background:#09241e;color:#e6d3a8;
+  padding:3px 4px;font:11px Tahoma,sans-serif;align-self:center}
+#vli-pc-v24 .pc248-social-view button.pc248-social-action:disabled{opacity:.55;cursor:not-allowed}
+#vli-pc-v24 .pc248-social-view button.pc248-social-close{width:75%;font-weight:bold;background:#526047a4;color:#f0dab1}
+#vli-pc-v24 .pc248-social-actions{display:flex;gap:4px;flex-wrap:wrap;justify-content:center}
+#vli-pc-v24 .pc248-team-cols{display:grid;grid-template-columns:1fr 1fr;gap:5px;flex:1}
+#vli-pc-v24 .pc248-team-col{padding:4px;border:1px solid #667359;background:#060d09b4;min-width:0}
+#vli-pc-v24 .pc248-team-col strong{display:block;background:#4a3a1cca;text-align:center;color:#e9d89a;font-size:11px}
+#vli-pc-v24 .pc248-team-col p{color:#aab0a0;font-size:10px;padding:6px 3px;line-height:1.5}
+#vli-pc-v24 .pc248-friends-view .pc248-social-tabs button{min-width:45px}

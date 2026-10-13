@@ -1,0 +1,119 @@
+{
+  "version": "24.7.0",
+  "dataSource": "V24.6 PC SPR retained; added V24.7 row-tracking behavior for skill 769",
+  "correctedRoles": [
+    "tracking_row_769",
+    "cast_1073",
+    "fly_335",
+    "hit_344",
+    "hit_336"
+  ],
+  "weaponRepair": {
+    "skillId": 769,
+    "oldEqt": 3,
+    "newEqt": 2,
+    "weaponClass": "Con/Bong"
+  },
+  "fireTransparency": [
+    [
+      "cast_1073_fit.webp",
+      58649,
+      159308,
+      19633
+    ],
+    [
+      "cast_1073_native.webp",
+      79191,
+      285606,
+      50569
+    ],
+    [
+      "fly_335_fit.webp",
+      112614,
+      213954,
+      25716
+    ],
+    [
+      "fly_335_native.webp",
+      197585,
+      416817,
+      67487
+    ],
+    [
+      "hit_336_fit.webp",
+      28083,
+      49627,
+      7244
+    ],
+    [
+      "hit_336_native.webp",
+      36600,
+      82655,
+      19560
+    ],
+    [
+      "hit_344_fit.webp",
+      8377,
+      25756,
+      3308
+    ],
+    [
+      "hit_344_native.webp",
+      11031,
+      45991,
+      6454
+    ]
+  ],
+  "files": [
+    {
+      "path": "cast_1073_fit.webp",
+      "sha256": "99dbbd97f9d64e4e73958b5ca1d4d9b6537f3808b90e0ff68412c1993693caea",
+      "size": 275394
+    },
+    {
+      "path": "cast_1073_native.webp",
+      "sha256": "3f28992833056554da2e3d0044c9e971da441e848dbb6bb2a9f02a887e5afa84",
+      "size": 152974
+    },
+    {
+      "path": "fly_335_fit.webp",
+      "sha256": "13aba40c4b1063118d79cc1480d83be4d033206cc2b33b4ba1c4f08befa94c1c",
+      "size": 203440
+    },
+    {
+      "path": "fly_335_native.webp",
+      "sha256": "056cd52b104024bdf88bed334296acf494ae066dacd156b844d278cbd9e4081c",
+      "size": 125922
+    },
+    {
+      "path": "fly_336_fit.webp",
+      "sha256": "f5285d28d26b45115c73d7f561b80fc33aa0380e5235aff0f5c5b72bd509f4eb",
+      "size": 72734
+    },
+    {
+      "path": "fly_336_native.webp",
+      "sha256": "4c120e0182a1394f54644f0e9b3dd863c92c9715bd44d480a23f294fe2eada8f",
+      "size": 41354
+    },
+    {
+      "path": "hit_336_fit.webp",
+      "sha256": "cccf5f7b0e9edcd014b8b66d1fd6352b3746d0ce05ef237c8702c365b0a21370",
+      "size": 60524
+    },
+    {
+      "path": "hit_336_native.webp",
+      "sha256": "2924958e44eae0f993db0bee8c00dd7b9176de13087feecb906b9175ef1ae8a1",
+      "size": 33284
+    },
+    {
+      "path": "hit_344_fit.webp",
+      "sha256": "8e3f82e9516ca366e45dd3e8906116ddf1cb9c10b2a65a028a8545548535c829",
+      "size": 40570
+    },
+    {
+      "path": "hit_344_native.webp",
+      "sha256": "a4d03ce3f52359d6e182a581d246fae38a69c5e04a91ce9f9e230bd5871cbf9a",
+      "size": 28808
+    }
+  ]
+}

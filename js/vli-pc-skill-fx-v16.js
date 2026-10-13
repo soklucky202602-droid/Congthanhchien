@@ -1,0 +1,27 @@
+/* VLI V16 verified PC skills.pak visual atlas. Does not alter skill definitions, damage, target selection, cooldowns, animation timing or saves. */
+(function(){
+ "use strict";
+ const linked={"fx/c1.webp":"fx/pc-v16/65707ACF_c1.webp","fx/c2_127.webp":"fx/pc-v16/3CAE8F47_c2_127.webp","fx/c2_129.webp":"fx/pc-v16/3CAE8F47_c2_129.webp","fx/c2_130.webp":"fx/pc-v16/3CAE8F47_c2_130.webp","fx/c2_15.webp":"fx/pc-v16/DD035109_c2_15.webp","fx/c2_157.webp":"fx/pc-v16/3DFCABC2_c2_157.webp","fx/c2_171.webp":"fx/pc-v16/3DFCABC2_c2_171.webp","fx/c2_173.webp":"fx/pc-v16/3DFCABC2_c2_173.webp","fx/c2_55.webp":"fx/pc-v16/F05A48DE_c2_55.webp","fx/c2_57.webp":"fx/pc-v16/F05A48DE_c2_57.webp","fx/c2_76.webp":"fx/pc-v16/F05A48DE_c2_76.webp","fx/c3.webp":"fx/pc-v16/2F8C6D50_c3.webp","fx/c6.webp":"fx/pc-v16/B91AB706_c6.webp","fx/m10_fly.webp":"fx/pc-v16/CAF70660_m10_fly.webp","fx/m110_fly.webp":"fx/pc-v16/4B66E71A_m110_fly.webp","fx/m11_fly.webp":"fx/pc-v16/C7830ACC_m11_fly.webp","fx/m11_hit.webp":"fx/pc-v16/AC3A8FBA_m11_hit.webp","fx/m12_fly.webp":"fx/pc-v16/25A1382D_m12_fly.webp","fx/m135_fly.webp":"fx/pc-v16/59E700C6_m135_fly.webp","fx/m143_fly.webp":"fx/pc-v16/0C9B55F0_m143_fly.webp","fx/m143_hit.webp":"fx/pc-v16/AC3A8FBA_m143_hit.webp","fx/m144_fly.webp":"fx/pc-v16/5698379E_m144_fly.webp","fx/m144_hit.webp":"fx/pc-v16/AC3A8FBA_m144_hit.webp","fx/m148_fly.webp":"fx/pc-v16/C7DCC84A_m148_fly.webp","fx/m149_fly.webp":"fx/pc-v16/7F1D7CEF_m149_fly.webp","fx/m154_fly.webp":"fx/pc-v16/622E88A7_m154_fly.webp","fx/m154_hit.webp":"fx/pc-v16/622E88A7_m154_hit.webp","fx/m156_fly.webp":"fx/pc-v16/C4822EB4_m156_fly.webp","fx/m156_hit.webp":"fx/pc-v16/C4822EB4_m156_hit.webp","fx/m158_fly.webp":"fx/pc-v16/6BAD474E_m158_fly.webp","fx/m158_hit.webp":"fx/pc-v16/6BAD474E_m158_hit.webp","fx/m159_fly.webp":"fx/pc-v16/C654D1B7_m159_fly.webp","fx/m160_fly.webp":"fx/pc-v16/2381F7B9_m160_fly.webp","fx/m160_hit.webp":"fx/pc-v16/2381F7B9_m160_hit.webp","fx/m162_fly.webp":"fx/pc-v16/5D52B0B6_m162_fly.webp","fx/m162_hit.webp":"fx/pc-v16/5D52B0B6_m162_hit.webp","fx/m163_fly.webp":"fx/pc-v16/94026F3A_m163_fly.webp","fx/m166_hit.webp":"fx/pc-v16/C33E96C2_m166_hit.webp","fx/m168_hit.webp":"fx/pc-v16/B91AB706_m168_hit.webp","fx/m169_fly.webp":"fx/pc-v16/B8578E46_m169_fly.webp","fx/m170_fly.webp":"fx/pc-v16/1173EE0F_m170_fly.webp","fx/m173_fly.webp":"fx/pc-v16/6233BE74_m173_fly.webp","fx/m176_fly.webp":"fx/pc-v16/DED1CA09_m176_fly.webp","fx/m176_hit.webp":"fx/pc-v16/361B4525_m176_hit.webp","fx/m17_fly.webp":"fx/pc-v16/CCD56C0B_m17_fly.webp","fx/m18_fly.webp":"fx/pc-v16/BCA3069C_m18_fly.webp","fx/m193_fly.webp":"fx/pc-v16/2381F7B9_m193_fly.webp","fx/m193_hit.webp":"fx/pc-v16/361B4525_m193_hit.webp","fx/m195_fly.webp":"fx/pc-v16/B91AB706_m195_fly.webp","fx/m196_fly.webp":"fx/pc-v16/F4DF3A91_m196_fly.webp","fx/m197_fly.webp":"fx/pc-v16/B8578E46_m197_fly.webp","fx/m197_hit.webp":"fx/pc-v16/361B4525_m197_hit.webp","fx/m1_fly.webp":"fx/pc-v16/55542141_m1_fly.webp","fx/m204_fly.webp":"fx/pc-v16/A5FB2719_m204_fly.webp","fx/m204_hit.webp":"fx/pc-v16/A5FB2719_m204_hit.webp","fx/m206_hit.webp":"fx/pc-v16/C4822EB4_m206_hit.webp","fx/m207_hit.webp":"fx/pc-v16/94026F3A_m207_hit.webp","fx/m216_hit.webp":"fx/pc-v16/A5FB2719_m216_hit.webp","fx/m223_fly.webp":"fx/pc-v16/997B962E_m223_fly.webp","fx/m225_fly.webp":"fx/pc-v16/3D1EFA48_m225_fly.webp","fx/m226_fly.webp":"fx/pc-v16/AA93D577_m226_fly.webp","fx/m26_fly.webp":"fx/pc-v16/AA93D577_m26_fly.webp","fx/m27_hit.webp":"fx/pc-v16/4B66E71A_m27_hit.webp","fx/m28_fly.webp":"fx/pc-v16/3D1EFA48_m28_fly.webp","fx/m38_fly.webp":"fx/pc-v16/D70A1DC1_m38_fly.webp","fx/m45_hit.webp":"fx/pc-v16/8A1DF06D_m45_hit.webp","fx/m46_hit.webp":"fx/pc-v16/8A1DF06D_m46_hit.webp","fx/m48_hit.webp":"fx/pc-v16/C33E96C2_m48_hit.webp","fx/m4_fly.webp":"fx/pc-v16/0C9B55F0_m4_fly.webp","fx/m55_fly.webp":"fx/pc-v16/997B962E_m55_fly.webp","fx/m55_hit.webp":"fx/pc-v16/9A1A74D9_m55_hit.webp","fx/m5_fly.webp":"fx/pc-v16/976B73AD_m5_fly.webp","fx/m66_fly.webp":"fx/pc-v16/E03B4814_m66_fly.webp","fx/m68_fly.webp":"fx/pc-v16/5698379E_m68_fly.webp","fx/m95_fly.webp":"fx/pc-v16/DED1CA09_m95_fly.webp"};
+ const j=window.JFX;
+ const status={version:"16.0",source:"skills.pak",effects:0,missing:[],enabled:true,links:Object.keys(linked).length,iconsFromPc:0,skillLogicModified:false};
+ window.VLI_PC_SKILL_V16=status;
+ if(!j){status.enabled=false;console.warn("[PC V16] JFX unavailable; original effects retained");return;}
+ try{status.enabled=localStorage.getItem("vli_pc_skills_v16")!=="off";}catch(e){}
+ if(!status.enabled)return;
+ const touched=new Set();
+ function visit(obj,seen){
+  if(!obj||typeof obj!=="object"||seen.has(obj))return;
+  seen.add(obj);
+  if(typeof obj.f==="string"&&Object.prototype.hasOwnProperty.call(linked,obj.f)){
+    const old=obj.f,pc=linked[old];obj.f=pc;touched.add(old);
+    const check=new Image();
+    check.onerror=function(){if(obj.f===pc)obj.f=old;status.missing.push(pc);console.warn("[PC V16] Image load failed, restored:",old);};
+    check.src=pc;
+  }
+  for(const value of Object.values(obj))if(value&&typeof value==="object")visit(value,seen);
+ }
+ const seen=new Set();visit(j,seen);
+ if(window.JXST)visit(window.JXST,seen);
+ status.effects=touched.size;
+ console.info("[PC V16] PC original effects enabled",status.effects,"source sheets. Skill logic and original H5 icons preserved.");
+})();
